@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@media screen and (min-width:1100px) {
+    .container-main{
+      height: 100vh;
+      scroll-snap-type:y  mandatory;
+      scroll-snap-stop: always;
+      scroll-margin-top: 45px;
+      scroll-margin-bottom: 35px;
+      overflow-y: scroll;
+      scroll-behavior: smooth;
+    }
+    
+    .section-content{
+      scroll-snap-align: start none;
+    }
+      
+  }
+  
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+
+
+
+.underline-nav {
+  display: block;
+  position: relative;
+  padding: 0.2em 0;
+  text-decoration: none;
+}
+
+.underline-nav::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%; /* Start from the center */
+  width: 0; /* Start with no width */
+  height: 0.1em;
+  background-color: #FFFFFF;
+  opacity: 0;
+  transition: opacity 500ms, width 500ms, transform 1000ms;
+  transform: translateX(-50%); /* Center horizontally */
+}
+
+.underline-nav:hover::after,
+.underline-nav:focus::after {
+  opacity: 1;
+  width: 100%; /* Expand to full width */
+  transform: translateX(0.2em,0,0.2em); /* Move right and left */
+}

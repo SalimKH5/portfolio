@@ -1,0 +1,28 @@
+{
+  "skills": [
+    {
+      "title": "Frontend Development"
+    },
+    {
+      "title": "Machine Learning"
+    },
+    {
+      "title": "Backend Development"
+    },
+    {
+      "title": "Data Analysis"
+    },
+    {
+      "title": "Project Management"
+    },
+    {
+      "title": "Database Management"
+    },
+    {
+      "title": "UI/UX Design"
+    },
+    {
+      "title": "Cloud Computing"
+    }
+  ]
+}
