@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import  { useState } from 'react';
+
 
 const ProjectContainer = ({ propos }: { propos: IWork }) => {
     const [hover, setHover] = useState<boolean>(false);
