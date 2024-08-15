@@ -59,7 +59,7 @@ const ModalComponent = ({ children, Skill }: ModalComponentProps) => {
 
     return (
         <>
-            <button className='bg-transparent text-white hover:text-black border-none' onClick={showModal}>
+            <button className='py-8 bg-transparent text-white hover:text-black border-none' onClick={showModal}>
                 {children}
             </button>
             <Modal title={Skill?.title} open={isModalOpen} onOk={handleOk} footer={null} onCancel={handleCancel} className='w-full px-12 flex items-center justify-center flex-col'>

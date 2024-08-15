@@ -57,7 +57,7 @@ const AboutContainer = () => {
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev',
                 }}
-                className="w-full  max-w-md   lg:max-w-6xl 2xl:max-w-9xl grid lg:grid-cols-4 gap-16 "
+                className="w-full min-h-20 max-w-md   lg:max-w-6xl 2xl:max-w-9xl grid lg:grid-cols-4 gap-16 "
             >
                 {
                     skills.skills.map((skill: ISkills, index: number) => (
