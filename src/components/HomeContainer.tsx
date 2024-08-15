@@ -5,8 +5,9 @@ const HomeContainer = () => {
         <div id="home" className='w-full section-content h-auto lg:h-screen flex flex-col  lg:flex-row  py-20'>
             <div className="w-full h-full flex-col lg:flex-row flex items-center gap-8 justify-between">
                 <div className="w-full h-full flex items-center flex-col gap-3 justify-center text-center max-w-sm">
-                    <h1 className='font-bold text-5xl'>FullStack Developper</h1>
-                    <p>Full-Stack Developer | Specialist in React.js, Express.js, and Next.js | Passionate Data Science Enthusiast | Building Scalable, High-Performance Applications</p>
+                    <h1 className='font-bold text-5xl'>Salim KHADIR</h1>
+                    <h2 className='font-bold text-xl'>FullStack Developper</h2>
+                    <p>Welcome to my portfolio! Explore my background and the projects I&apos;ve crafted, showcasing my skills and creativity. Feel free to connect if you&apos;d like to learn more or collaborate.</p>
                 </div>
                 <div className="w-72 max-h-[34rem] h-full flex items-center justify-center">
                     <div className="w-full h-full  rounded-2xl relative">

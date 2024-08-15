@@ -9,6 +9,7 @@ import 'swiper/swiper-bundle.css';
 import "swiper/css/effect-coverflow"
 import "swiper/css/autoplay";
 import 'swiper/css/navigation';
+import ModalComponent from "./ModalComponent";
 const AboutContainer = () => {
 
 
@@ -23,6 +24,10 @@ const AboutContainer = () => {
             <p>I am deeply passionate about new information and communication technologies, and I thrive on exploring and understanding the latest advancements in this dynamic field. My enthusiasm for innovation drives me to stay updated with cutting-edge developments and emerging trends, ensuring I remain at the forefront of technological progress.
 
                 As a Full-Stack Developer with expertise in React.js, Express, and Next.js, I relish the opportunity to leverage these technologies to build robust, scalable, and efficient web applications. My experience spans both front-end and back-end development, allowing me to create seamless and user-centric solutions that address real-world challenges.</p>
+            <div className="w-full text-start">
+                <h2 className="text-2xl">My General Skills</h2>
+            </div>
+
             <Swiper
                 autoplay={true}
                 loop={true}
@@ -60,7 +65,7 @@ const AboutContainer = () => {
                             key={index}
                             className='swiper-slide border-[1.5px] cursor-pointer hover:bg-white hover:text-black hover:border-[#c5c5c5]  border-[#e3e3e3] h-14 flex items-center justify-center p-3 rounded-xl'
                         >
-                            <Skills propos={skill} />
+                            <ModalComponent Skill={skill} ><Skills propos={skill.title} /></ModalComponent>
 
                         </SwiperSlide>
                     ))

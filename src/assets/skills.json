@@ -1,28 +1,101 @@
 {
   "skills": [
     {
-      "title": "Frontend Development"
+      "title": "Frontend Development",
+      "details": [
+        {
+          "text":"React.js",
+          "icon":"FaReact"
+        },
+        {  "text":"Next.js",
+          "icon":"RiNextjsFill"
+        },
+        {  "text":"Angular.js",
+           "icon":"FaAngular"
+        },
+        {
+          "text":"HTML5",
+           "icon":"FaHtml5"
+        },
+        {
+          "text":"CSS",
+          "icon":"FaCss3Alt"
+        },
+        {  "text":"Javascript",
+           "icon":"SiJavascript"
+        }
+        
+      ]
     },
     {
-      "title": "Machine Learning"
+
+      "title": "Backend Development",
+      "details": [
+        {
+          "text":"Express.js",
+          "icon":"SiExpress"
+        },
+        {
+          "text":"PHP",
+          "icon":"FaPhp"
+        },
+        {
+          "text":"Yii 2",
+          "icon":"DiYii"
+        },
+        {
+          "text":".Net",
+          "icon":"AiOutlineDotNet"
+        }
+      ]
     },
     {
-      "title": "Backend Development"
+      "title": "Data Science",
+      "details": [
+        {
+          "text":"Python",
+          "icon":"FaPython"
+        },
+        {
+          "text":"Machine Learning",
+          "icon":"GiArtificialIntelligence"
+        }
+      ]
     },
     {
-      "title": "Data Analysis"
+      "title": "Project Management",
+     "details": [
+        {
+          "text":"Jira",
+          "icon":"FaJira"
+        },
+        {
+          "text":"Jira",
+          "icon":"PiMicrosoftPowerpointLogoLight"
+        }
+      ]
     },
     {
-      "title": "Project Management"
-    },
-    {
-      "title": "Database Management"
-    },
-    {
-      "title": "UI/UX Design"
-    },
-    {
-      "title": "Cloud Computing"
+      "title": "Database Management",
+      "details": [
+        {
+          "text":"Mysql",
+          "icon":"DiMysql"
+        },
+        {
+          "text":"Postgresql",
+          "icon":"BiLogoPostgresql"
+        },
+        {
+          "text":"Mongodb",
+          "icon":"DiMongodb"
+        },
+        {
+          "text":"Firebase",
+          "icon":"IoLogoFirebase"
+        }
+      ]
     }
+   
   ]
 }
