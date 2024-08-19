@@ -84,7 +84,6 @@ const WorkContainer = () => {
 
                             <SwiperSlide className='w-full swiper-slide h-full'>
                                 <ProjectContainer propos={work} />
-
                             </SwiperSlide>
                         ))
                     }

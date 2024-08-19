@@ -24,7 +24,7 @@ const works: IWork[] = [
     "title": "Social Media Dashboard",
     "id": 2,
     url: "https://salimkh5.github.io/social-media-dashbord/",
-    images: ["/social media dashboard.png", "/social media dashboard2.png"],
+    images: ["/social media dashboard.png", "/social media dashboard2.png","/social media dashboard3.png"],
     "detail": "A dynamic social media dashboard designed with HTML, CSS, and JavaScript. Features a user-friendly interface with the ability to toggle between light and dark modes, making it adaptable to different user preferences and lighting conditions."
   },
   {
@@ -32,7 +32,7 @@ const works: IWork[] = [
     "title": "YouTube Clone",
     "id": 3,
     url: "https://gregarious-monstera-5e42e6.netlify.app/",
-    images: ["/youtube.png", "/yotube2.png"],
+    images: ["/youtube.png", "/yotube2.png","/youtube3.png"],
     "detail": "A YouTube clone developed using React.js and an external API. It includes video playback functionality and a search feature, providing a similar experience to YouTube with a custom front-end design."
   },
   {
@@ -74,8 +74,8 @@ const Project = () => {
 
 
   return (
-    <div className="w-full h-full max-w-sm lg:max-w-6xl">
-      <div className='w-full section-content h-auto lg:h-screen flex flex-col  lg:flex-row  py-20'>
+    <div className="w-full h-full max-w-sm md:max-w-5xl xl:max-w-6xl">
+      <div className='w-full  h-auto  flex flex-col  lg:flex-row py-10 md:py-16'>
         <div className="w-full h-full flex  lg:flex-row flex-col-reverse items-center gap-8 justify-between">
 
           <div className="w-full max-w-xl h-full flex items-center justify-center">
@@ -88,7 +88,7 @@ const Project = () => {
                         key={work.id} // Add a unique key for each item in a list
                         src={`${pathService}`} // Assuming 'imagePath' is the field containing the image URL
                         alt=""
-                        className='object-fill   h-full rounded-2xl border-2 border-blue-300'
+                        className=' w-full max-h-80  h-full rounded-2xl '
                       />
                     </div>
                   </div>
@@ -107,7 +107,7 @@ const Project = () => {
                         "980": {
                           slidesPerView: work?.images?.length > 2 ? 3 : 2,
 
-                          spaceBetween: 30
+                          spaceBetween: 15
                         },
                       }}
                       modules={[Navigation, Pagination, Autoplay]}
@@ -116,7 +116,7 @@ const Project = () => {
                         prevEl: '.swiper-button-prev',
                       }}
 
-                      className="w-full h-20  lg:h-28 "
+                      className="w-full h-24  lg:h-28 "
                     >
 
                       {work?.images?.map((image: string, index: number) => (
@@ -128,7 +128,7 @@ const Project = () => {
                             key={index} // Add a unique key for each item in a list
                             src={`${image}`} // Assuming 'imagePath' is the field containing the image URL
                             alt=""
-                            className='object-fill h-full rounded-2xl border-2 border-blue-300'
+                            className='object-cover w-full h-full rounded-2xl '
                           />
                         </SwiperSlide>
                       ))

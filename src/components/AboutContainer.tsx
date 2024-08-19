@@ -63,9 +63,9 @@ const AboutContainer = () => {
                     skills.skills.map((skill: ISkills, index: number) => (
                         <SwiperSlide
                             key={index}
-                            className='swiper-slide border-[1.5px] cursor-pointer hover:bg-white hover:text-black hover:border-[#c5c5c5]  border-[#e3e3e3] h-14 flex items-center justify-center p-3 rounded-xl'
+                            className='w-full swiper-slide border-[1.5px] cursor-pointer hover:bg-white hover:text-black hover:border-[#c5c5c5]  border-[#e3e3e3] h-14 flex items-center justify-center p-3 rounded-xl'
                         >
-                            <ModalComponent Skill={skill} ><Skills propos={skill.title} /></ModalComponent>
+                            <ModalComponent Skill={skill} />
 
                         </SwiperSlide>
                     ))

@@ -12,6 +12,13 @@ declare global {
         title?:string,
         details?:ISkillDetail[]
     }
+    interface IEvent{
+        date:string,
+        title:string,
+        descriptions?:string[],
+        localisation?:string
+
+    }
     
     interface IWork{
         title?:string,

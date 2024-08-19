@@ -1,5 +1,5 @@
 import { ReactNode, useState } from 'react';
-import {  Modal } from 'antd';
+import { Modal } from 'antd';
 import { FaAngular, FaCss3Alt, FaHtml5, FaJira, FaPhp, FaPython, FaReact } from 'react-icons/fa';
 import { RiNextjsFill } from 'react-icons/ri';
 import { SiExpress, SiJavascript } from 'react-icons/si';
@@ -27,7 +27,7 @@ const iconMap: Record<string, React.ElementType> = {
     DiMongodb: DiMongodb,
     DiMysql: DiMysql,
     DiYii: DiYii,
-    FaPython:FaPython,
+    FaPython: FaPython,
     AiOutlineDotNet: AiOutlineDotNet,
     GiArtificialIntelligence: GiArtificialIntelligence,
     PiMicrosoftPowerpointLogoLight: PiMicrosoftPowerpointLogoLight,
@@ -37,11 +37,11 @@ const iconMap: Record<string, React.ElementType> = {
 
 
 interface ModalComponentProps {
-    children: ReactNode;
-    Skill?:ISkills
+
+    Skill?: ISkills
 }
 
-const ModalComponent = ({ children, Skill }: ModalComponentProps) => {
+const ModalComponent = ({  Skill }: ModalComponentProps) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     const showModal = () => {
@@ -59,21 +59,23 @@ const ModalComponent = ({ children, Skill }: ModalComponentProps) => {
 
     return (
         <>
-            <button className='py-8 bg-transparent text-white hover:text-black border-none' onClick={showModal}>
-                {children}
+            <button className='py-8 bg-transparent border-none' onClick={showModal}>
+            {Skill?.title}
             </button>
-            <Modal title={Skill?.title} open={isModalOpen} onOk={handleOk} footer={null} onCancel={handleCancel} className='w-full px-12 flex items-center justify-center flex-col'>
-                {Skill?.details?.map((iconName, index) => {
-                    const IconComponent = iconMap[iconName.icon];
-                    return IconComponent ?
-                        <div key={index} className="w-full flex items-center gap-5">
-                            <IconComponent  size={30} />
-                            <h1>{iconName.text}</h1>
-                        </div>
+            <Modal title={Skill?.title} open={isModalOpen} onOk={handleOk} footer={null} onCancel={handleCancel} className='w-full px-12 flex items-center justify-center flex-col gap-8 '>
+                <div className="w-full h-full bg-white flex flex-col gap-4">
+                    {Skill?.details?.map((iconName, index) => {
+                        const IconComponent = iconMap[iconName.icon];
+                        return IconComponent ?
+                            <div key={index} className="w-full flex items-center gap-2">
+                                <IconComponent size={30} />
+                                <h1>{iconName.text}</h1>
+                            </div>
+                            :
+                            null;
+                    })}
+                </div>
 
-                        :
-                        null;
-                })}
             </Modal>
         </>
     );

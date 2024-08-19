@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa6";
 const Navbar = () => {
   return (
     <nav className='bg-[#363232] w-full flex items-center justify-center  fixed  z-50 py-2 left-0 right-0 top-0 '>
-      <div className="w-full  flex items-center justify-between max-w-sm px-4 lg:px-0  lg:max-w-4xl">
+      <div className="w-full  flex items-center justify-between max-w-sm px-4 lg:px-0  lg:max-w-5xl">
         <a href="/" className='text-xl font-bold'>SALIMKHADIR</a>
         <ul className='hidden lg:flex items-center justify-between gap-12'>
           <li><a href="#home" className='underline-nav'>Home</a></li>
