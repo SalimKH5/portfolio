@@ -1,7 +1,7 @@
 
 import skills from "../assets/skills.json"
 
-import Skills from './Skills'
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';

@@ -1,4 +1,4 @@
-import { ReactNode, useState } from 'react';
+import {  useState } from 'react';
 import { Modal } from 'antd';
 import { FaAngular, FaCss3Alt, FaHtml5, FaJira, FaPhp, FaPython, FaReact } from 'react-icons/fa';
 import { RiNextjsFill } from 'react-icons/ri';
