@@ -48,7 +48,7 @@ const works: IWork[] = [
     "title": "Static Job Listings",
     "id": 5,
     url: "https://salimkh5.github.io/static-job-listings-master/",
-    images: ["/social media dashboard.png", "/social media dashboard2.png"],
+    images: ["/static-job-listings.png", "/static-job-listings2.png","static-job-listings3.png"],
     "detail": "A static job listings page featuring a search functionality to filter job postings based on different criteria such as job title, location, and type. Designed with a clean and straightforward layout to provide an efficient job search experience."
   }
 ]
