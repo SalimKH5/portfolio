@@ -1,4 +1,4 @@
-import  { useCallback, useEffect, useMemo, useState } from 'react'
+import  { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
@@ -8,7 +8,7 @@ import "swiper/css/effect-coverflow"
 import "swiper/css/autoplay";
 import 'swiper/css/navigation';
 import { FaRegEye } from "react-icons/fa";
-import { LazyLoadImage } from "react-lazy-load-image-component";
+
 
 const works: IWork[] = [
   {
@@ -64,7 +64,7 @@ const Project = () => {
 
   const work = works.find((work: IWork) => path.id === work.id.toString())
   
-  useMemo(()=>{
+  useEffect(()=>{
     if(work){
       setPathService(work.image)
     }
@@ -84,13 +84,10 @@ const Project = () => {
                 <>
                   <div className="w-full flex items-center justify-center">
                     <div className='w-full max-h-80 h-full rounded-2xl relative'>
-                      <LazyLoadImage
+                      <img
                         key={work.id} // Add a unique key for each item in a list
                         src={`${pathService}`} // Assuming 'imagePath' is the field containing the image URL
                         alt=""
-                        placeholder={<div className=' w-full h-80 rounded-2xl  bg-slate-400 animate-pulse'>
-
-                        </div>}
                         className=' w-full max-h-80  h-full rounded-2xl '
                       />
                     </div>
@@ -127,11 +124,10 @@ const Project = () => {
                         <SwiperSlide 
                         onClick={()=>{setPathService(image)}}
                         className='w-full swiper-slider h-full cursor-pointer'>
-                          <LazyLoadImage
+                          <img
                             key={index} // Add a unique key for each item in a list
                             src={`${image}`} // Assuming 'imagePath' is the field containing the image URL
                             alt=""
-                            placeholder={<div className=' w-full h-full rounded-2xl  bg-slate-400 animate-pulse'></div>}
                             className='object-cover w-full h-full rounded-2xl '
                           />
                         </SwiperSlide>

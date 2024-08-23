@@ -2,7 +2,7 @@
 
 const FormContainer = () => {
     return (
-        <div id="contact" className='w-full section-content h-auto lg:h-screen flex flex-col    justify-center items-center text-center gap-10 mb-8 py-20'>
+        <div className='w-full section-content h-auto lg:h-screen flex flex-col    justify-center items-center text-center gap-10 mb-8 py-20'>
             <div className="w-full flex items-start py-2">
                 <h1 className="font-bold text-2xl">CONTACT ME</h1>
             </div>
