@@ -7,7 +7,7 @@ const works: IWork[] = [
         "title": "Instagram Clone",
         "id": 1,
         "detail": "A fully functional Instagram clone built with Next.js, leveraging its capabilities such as API routes and server-side rendering to replicate the core features of Instagram. Includes user authentication, photo uploads, and real-time interactions.",
-        icons:[""],
+    
     },
     {
         "image": "/social media dashboard.png",
