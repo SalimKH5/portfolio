@@ -1,7 +1,7 @@
 import {  useState } from 'react';
 import { Modal } from 'antd';
 import { FaAngular, FaCss3Alt, FaHtml5, FaJira, FaPhp, FaPython, FaReact } from 'react-icons/fa';
-import { RiNextjsFill } from 'react-icons/ri';
+import { RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri';
 import { SiExpress, SiJavascript } from 'react-icons/si';
 import { DiMongodb, DiMysql, DiYii } from 'react-icons/di';
 import { AiOutlineDotNet } from 'react-icons/ai';
@@ -26,6 +26,7 @@ const iconMap: Record<string, React.ElementType> = {
     SiJavascript: SiJavascript,
     DiMongodb: DiMongodb,
     DiMysql: DiMysql,
+    RiTailwindCssFill:RiTailwindCssFill,
     DiYii: DiYii,
     FaPython: FaPython,
     AiOutlineDotNet: AiOutlineDotNet,

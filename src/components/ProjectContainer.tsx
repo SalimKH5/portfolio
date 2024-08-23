@@ -1,4 +1,6 @@
 import  { useState } from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 
 const ProjectContainer = ({ propos }: { propos: IWork }) => {
@@ -16,7 +18,7 @@ const ProjectContainer = ({ propos }: { propos: IWork }) => {
             >
                 <h1 className='font-bold text-xl text-white'>{propos.title}</h1>
             </div>
-            <img src={propos.image} alt="" className="w-full h-full rounded-3xl" />
+            <LazyLoadImage  placeholder={<div className='w-full h-60 rounded-2xl bg-slate-300 animate-pulse '></div>} src={propos.image} alt="" className="w-full h-full rounded-3xl" />
         </a>
     );
 };

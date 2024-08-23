@@ -6,7 +6,8 @@ const works: IWork[] = [
         "image": "/instagrame clone.png",
         "title": "Instagram Clone",
         "id": 1,
-        "detail": "A fully functional Instagram clone built with Next.js, leveraging its capabilities such as API routes and server-side rendering to replicate the core features of Instagram. Includes user authentication, photo uploads, and real-time interactions."
+        "detail": "A fully functional Instagram clone built with Next.js, leveraging its capabilities such as API routes and server-side rendering to replicate the core features of Instagram. Includes user authentication, photo uploads, and real-time interactions.",
+        icons:[""],
     },
     {
         "image": "/social media dashboard.png",
@@ -49,7 +50,7 @@ const WorkContainer = () => {
             <div className="w-full  flex flex-col gap-8 text-start">
                 <h1 className='text-5xl '>Work</h1>
                 <div className="w-full text-center">
-                    <p>Explore a selection of my projects that demonstrate my expertise across various technologies. Each project highlights different skills and tools I've utilized to solve unique challenges and deliver impactful solutions. From innovative web applications to robust backend systems, these examples showcase my versatility and commitment to quality.</p>
+                    <p>Explore a selection of my projects that demonstrate my expertise across various technologies. Each project highlights different skills and tools I've utilized to solve unique challenges and deliver impactful solutions. From innovative web applications to robust backend systems, these examples showcase my versatility and commitment to quality. You'll find a diverse range of work that not only reflects my technical abilities but also my dedication to continuous learning. My portfolio is a testament to my passion for creating effective, efficient, and user-friendly solutions.</p>
                 </div>
                 <Swiper
                     autoplay={true}
@@ -82,7 +83,7 @@ const WorkContainer = () => {
                     {
                         works.map((work: IWork) => (
 
-                            <SwiperSlide className='w-full swiper-slide h-full'>
+                            <SwiperSlide className='w-full swiper-slide h-60'>
                                 <ProjectContainer propos={work} />
                             </SwiperSlide>
                         ))

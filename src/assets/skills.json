@@ -21,6 +21,10 @@
           "text":"CSS",
           "icon":"FaCss3Alt"
         },
+        {
+          "text":"Tailwind css",
+          "icon":"RiTailwindCssFill"
+        },
         {  "text":"Javascript",
            "icon":"SiJavascript"
         }

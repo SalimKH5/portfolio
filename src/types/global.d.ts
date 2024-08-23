@@ -26,7 +26,8 @@ declare global {
         id:number,
         detail?:string,
         url?:string,
-        images?:string[]
+        images?:string[],
+        icons?:ISkillDetail[]
     }
 
 }
