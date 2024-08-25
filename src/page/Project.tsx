@@ -56,10 +56,10 @@ const works: IWork[] = [
     "image": "/rest country.png",
     "title": "REST Country",
     "id": 4,
-    url: "https://salimkh5.github.io/rest-countries-master/",
+    url: "https://rest-countries-master-git-main-khadir-salims-projects.vercel.app/",
     images: ["/rest country.png", "/rest country2.png", "/rest country3.png","/rest country4.png"],
     "detail": "A web application built with React.js that allows users to explore and filter countries based on various criteria such as population, region, and languages. Provides a comprehensive overview of country data with a responsive and interactive UI.",
-    icons: [{icon:"FaReact",text:"ReactJs"} ,{icon:"FaCss3Alt",text:"CSS"} ,{icon:"FaHtml5",text:"HTML5"},{icon:"LuFileJson",text:"Json"}]
+    icons: [{icon:"FaReact",text:"ReactJs"},{icon:"SiTypescript",text:"Typescript"} ,{icon:"FaCss3Alt",text:"CSS"} ,{icon:"FaHtml5",text:"HTML5"},{icon:"LuFileJson",text:"Json"}]
   },
   {
     "image": "/static-job-listings.png",

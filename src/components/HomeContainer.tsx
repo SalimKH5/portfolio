@@ -11,7 +11,7 @@ const HomeContainer = () => {
                 </div>
                 <div className="w-full h-full flex items-center justify-center lg:justify-end ">
                     <div className="w-[15rem] h-[15rem]  xl:w-[22rem] xl:h-[22rem]  relative">
-                        <img src="/ProfilePicture.jpg" alt="" className='object-cover w-full h-full rounded-full' />
+                        <img src="/ProfilePicture.jpg" alt="" className='object-cover border-[1px] border-black w-full h-full rounded-full' />
                     </div>
 
                 </div>

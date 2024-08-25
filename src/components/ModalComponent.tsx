@@ -60,7 +60,7 @@ const ModalComponent = ({  Skill }: ModalComponentProps) => {
 
     return (
         <>
-            <button className='py-8 bg-transparent border-none' onClick={showModal}>
+            <button className='py-8  bg-transparent border-none' onClick={showModal}>
             {Skill?.title}
             </button>
             <Modal title={Skill?.title} open={isModalOpen} onOk={handleOk} footer={null} onCancel={handleCancel} className='w-full px-12 flex items-center justify-center flex-col gap-8 '>
