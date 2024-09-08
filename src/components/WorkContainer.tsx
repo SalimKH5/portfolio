@@ -41,20 +41,23 @@ import 'swiper/swiper-bundle.css';
 import "swiper/css/effect-coverflow"
 import "swiper/css/autoplay";
 import 'swiper/css/navigation';
+import { useTranslation } from 'react-i18next';
 
 
 
 const WorkContainer = () => {
+
+    const {t}=useTranslation();
     return (
         <div id="work" className='w-full section-content h-auto lg:h-screen  flex flex-col  justify-center items-center text-center gap-10 py-24'>
             <div className="w-full  flex flex-col gap-8 text-start">
-                <h1 className='text-5xl '>Side Projects
+                <h1 className='text-5xl '>{t("titleSide")}
                 </h1>
                 <div className="w-full text-center">
-                    <p>Explore a selection of my projects that demonstrate my expertise across various technologies. Each project highlights different skills and tools I've utilized to solve unique challenges and deliver impactful solutions. From innovative web applications to robust backend systems, these examples showcase my versatility and commitment to quality. You'll find a diverse range of work that not only reflects my technical abilities but also my dedication to continuous learning. My portfolio is a testament to my passion for creating effective, efficient, and user-friendly solutions.</p>
+                    <p>{t("sideProject")}</p>
                 </div>
                 <Swiper
-                    autoplay={true}
+                    autoplay={{delay:6000}}
                     loop={true}
                     breakpoints={{
                         "0": {

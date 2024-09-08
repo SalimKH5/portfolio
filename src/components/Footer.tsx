@@ -7,10 +7,10 @@ const Footer = () => {
       <div className="w-full flex items-center justify-between max-w-sm px-4 lg:px-0  lg:max-w-5xl">
         <h1 className='font-bold'>SALIMKHADIR</h1>
         <div className="flex items-center gap-4">
-          <div className=' flex items-center justify-center'>
+          <div className='hover:scale-110 flex items-center justify-center'>
             <a target='_blank' href="https://github.com/salimKH5"><FaGithub size={30} /></a>
           </div>
-          <div className=' flex items-center justify-center'>
+          <div className='hover:scale-110 flex items-center justify-center'>
             <a target='_blank' href="https://www.linkedin.com/in/salim-khadir-316aa3219/"><FaLinkedin size={30} /></a>
           </div>
         </div>

@@ -10,27 +10,27 @@ import "swiper/css/effect-coverflow"
 import "swiper/css/autoplay";
 import 'swiper/css/navigation';
 import ModalComponent from "./ModalComponent";
+import { useTranslation } from "react-i18next";
 const AboutContainer = () => {
 
-
+    const {t}=useTranslation();
 
 
     return (
         <div id="about" className='w-full section-content h-auto lg:h-screen flex flex-col    justify-center items-center text-center gap-10 py-16'>
             <div className="w-full text-start">
-                <h1 className='text-5xl'>About</h1>
+                <h1 className='text-5xl'>{t("titleAbout")}</h1>
             </div>
 
-            <p>I am deeply passionate about new information and communication technologies, and I thrive on exploring and understanding the latest advancements in this dynamic field. My enthusiasm for innovation drives me to stay updated with cutting-edge developments and emerging trends, ensuring I remain at the forefront of technological progress.
-
-                As a Full-Stack Developer with expertise in React.js, Express, and Next.js, I relish the opportunity to leverage these technologies to build robust, scalable, and efficient web applications. My experience spans both front-end and back-end development, allowing me to create seamless and user-centric solutions that address real-world challenges.</p>
+            <p className="text-lg">{t("subtitleAbout")}</p>
             <div className="w-full text-start">
                 <h2 className="text-2xl">My General Skills</h2>
             </div>
 
             <Swiper
-                autoplay={true}
+                autoplay={{delay:5000}}
                 loop={true}
+
                 breakpoints={{
                     // when window width is >= 640px
 

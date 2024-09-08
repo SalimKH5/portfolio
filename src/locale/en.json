@@ -1,0 +1,151 @@
+{
+  "translation": {
+    "subtitleSection1": "Welcome to my portfolio! Explore my background and the projects I've crafted, showcasing my skills and creativity. Feel free to connect if you'd like to learn more or collaborate.",
+    "subtitleAbout": "I am deeply passionate about new information and communication technologies, and I thrive on exploring and understanding the latest advancements in this dynamic field. My enthusiasm for innovation drives me to stay updated with cutting-edge developments and emerging trends, ensuring I remain at the forefront of technological progress. As a Full-Stack Developer with expertise in React.js, Express, and Next.js, I relish the opportunity to leverage these technologies to build robust, scalable, and efficient web applications. My experience spans both front-end and back-end development, allowing me to create seamless and user-centric solutions that address real-world challenges.",
+    "sideProject": "Explore a selection of my projects that demonstrate my expertise across various technologies. Each project highlights different skills and tools I've utilized to solve unique challenges and deliver impactful solutions. From innovative web applications to robust backend systems, these examples showcase my versatility and commitment to quality. You'll find a diverse range of work that not only reflects my technical abilities but also my dedication to continuous learning. My portfolio is a testament to my passion for creating effective, efficient, and user-friendly solutions.",
+    "titleAbout": "About",
+    "titleSide": "Side Projects",
+    "navHome": "Home",
+    "navAbout": "About",
+    "navSideProject": "Side Projects",
+    "ContactTitle": "Contact me",
+    "ContacteSubtitle": "I would love to hear about your project and how I can help. Please fill in the form, and I’ll get back to you as soon as possible.",
+    "ContactFormGmail": "Contact me using the form",
+    "ContactGithub": "Contact me with Linkdean",
+    "ContactLinkdean": "See my projects on Github",
+    "experiences": [
+      {
+        "date": "Octobre 2023 - Mars 2024 · 6 mois",
+        "role": "Frontend Developer",
+        "localisation": "Cheragga Algeria",
+        "company": "IMMERSIVE DIGITAL DEVELOPPEMENT (IDD)",
+        "responsibilities": [
+          "Creation of intuitive and engaging user interfaces",
+          "Using the Next.js framework for dynamic and responsive frontend solutions",
+          "Collaborating with the design team to enhance the user experience"
+        ]
+      },
+      {
+        "date": "August 2023 - October 2023 · 3 months",
+        "role": "Full-stack Developer",
+        "company": "Algitech.sol · Freelance",
+        "responsibilities": [
+          "Developed essential features for an e-commerce site using the PHP Yii2 framework",
+          "Optimized site performance and improved the user experience"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "start_date": "April 2, 2024",
+        "end_date": "currently",
+        "degree": "Master's in Web Architecture",
+        "institution": "Digital School of Paris",
+        "notes": ""
+      },
+      {
+        "start_date": "July 17, 2023",
+        "end_date": "September 26, 2021",
+        "degree": "Master's Degree in Bioinformatics",
+        "institution": "University of Science and Technology Houari Boumediene",
+        "notes": ""
+      },
+      {
+        "start_date": "June 15, 2021",
+        "end_date": "",
+        "degree": "Bachelor's Degree in Computer Science",
+        "institution": "University of Science and Technology Houari Boumediene",
+        "notes": ""
+      },
+      {
+        "start_date": "July 20, 2018",
+        "end_date": "",
+        "degree": "Baccalaureate in Mathematics",
+        "institution": "",
+        "notes": ""
+      }
+    ],
+    "projects":[
+      {
+        "image": "/instagrame clone.png",
+        "title": "Instagram Clone",
+        "id": 1,
+        "url": "https://instagram-clone-next-git-main-khadir-salims-projects.vercel.app/",
+        "githubUrl": "https://github.com/SalimKH5/instagram-clone-next",
+        "images": ["/instagrame clone.png", "/instagram2.png", "/instagram3.png", "/instagram4.png", "/instagram5.png"],
+        "detail": "A fully functional Instagram clone built with Next.js, leveraging its capabilities such as API routes and server-side rendering to replicate the core features of Instagram. Includes user authentication, photo uploads, and real-time interactions.",
+        "icons": [
+          { "icon": "RiNextjsFill", "text": "NextJs" },
+          { "icon": "FaReact", "text": "ReactJs" },
+          { "icon": "DiMongodb", "text": "Mongodb" },
+          { "icon": "RiTailwindCssFill", "text": "Tailwind css" },
+          { "icon": "LuFileJson", "text": "Json" },
+          { "icon": "FaHtml5", "text": "HTML5" },
+          { "icon": "SiTypescript", "text": "Typescript" }
+        ]
+      },
+      {
+        "image": "/social media dashboard.png",
+        "title": "Social Media Dashboard",
+        "id": 2,
+        "url": "https://salimkh5.github.io/social-media-dashbord/",
+        "githubUrl": "https://github.com/SalimKH5/social-media-dashbord",
+        "images": ["/social media dashboard.png", "/social media dashboard2.png", "/social media dashboard3.png"],
+        "detail": "A dynamic social media dashboard designed with HTML, CSS, and JavaScript. Features a user-friendly interface with the ability to toggle between light and dark modes, making it adaptable to different user preferences and lighting conditions.",
+        "icons": [
+          { "icon": "SiJavascript", "text": "Javascript" },
+          { "icon": "FaCss3Alt", "text": "CSS" },
+          { "icon": "FaHtml5", "text": "HTML5" },
+          { "icon": "LuFileJson", "text": "Json" }
+        ]
+      },
+      {
+        "image": "/youtube.png",
+        "title": "YouTube Clone",
+        "id": 3,
+        "url": "https://gregarious-monstera-5e42e6.netlify.app/",
+        "githubUrl": "https://github.com/SalimKH5/Youtube-clone",
+        "images": ["/youtube.png", "/yotube2.png", "/youtube3.png"],
+        "detail": "A YouTube clone developed using React.js and an external API. It includes video playback functionality and a search feature, providing a similar experience to YouTube with a custom front-end design.",
+        "icons": [
+          { "icon": "FaReact", "text": "ReactJs" },
+          { "icon": "FaCss3Alt", "text": "CSS" },
+          { "icon": "FaHtml5", "text": "HTML5" },
+          { "icon": "LuFileJson", "text": "Json" }
+        ]
+      },
+      {
+        "image": "/rest country.png",
+        "title": "REST Country",
+        "id": 4,
+        "url": "https://rest-countries-master-git-main-khadir-salims-projects.vercel.app/",
+        "githubUrl": "https://github.com/SalimKH5/rest-countries-master",
+        "images": ["/rest country.png", "/rest country2.png", "/rest country3.png", "/rest country4.png"],
+        "detail": "A web application built with React.js that allows users to explore and filter countries based on various criteria such as population, region, and languages. Provides a comprehensive overview of country data with a responsive and interactive UI.",
+        "icons": [
+          { "icon": "FaReact", "text": "ReactJs" },
+          { "icon": "SiTypescript", "text": "Typescript" },
+          { "icon": "FaCss3Alt", "text": "CSS" },
+          { "icon": "FaHtml5", "text": "HTML5" },
+          { "icon": "LuFileJson", "text": "Json" }
+        ]
+      },
+      {
+        "image": "/static-job-listings.png",
+        "title": "Static Job Listings",
+        "id": 5,
+        "url": "https://salimkh5.github.io/static-job-listings-master/",
+        "githubUrl": "https://github.com/SalimKH5/static-job-listings-master",
+        "images": ["/static-job-listings.png", "/static-job-listings2.png", "static-job-listings3.png"],
+        "detail": "A static job listings page featuring a search functionality to filter job postings based on different criteria such as job title, location, and type. Designed with a clean and straightforward layout to provide an efficient job search experience.",
+        "icons": [
+          { "icon": "FaReact", "text": "ReactJs" },
+          { "icon": "FaCss3Alt", "text": "CSS" },
+          { "icon": "FaHtml5", "text": "HTML5" },
+          { "icon": "LuFileJson", "text": "Json" }
+        ]
+      }
+    ]
+    
+  }
+}
