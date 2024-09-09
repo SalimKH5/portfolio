@@ -91,8 +91,8 @@ const Project = () => {
 
 
   return (
-    <div className="w-full h-full min-h-screen max-w-sm sm:max-w-md md:max-w-5xl xl:max-w-6xl px-5">
-      <div className='w-full  h-auto  flex flex-col  lg:flex-row py-10 md:py-16'>
+    <div className="w-full h-full min-h-screen max-w-sm sm:max-w-md md:max-w-5xl xl:max-w-6xl py-20 px-5">
+      <div className='w-full  h-auto  flex flex-col  lg:flex-row '>
         <div className="w-full h-full flex  lg:flex-row flex-col-reverse items-center gap-8 justify-between">
 
           <div className="w-full max-w-xl h-full flex items-center justify-center">

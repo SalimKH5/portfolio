@@ -42,7 +42,7 @@ createRoot(document.getElementById('root')!).render(
         <Navbar />
         <RouterProvider router={router} />
         <Footer />
-        <div className="fixed flex items-center justify-center bottom-16 right-4">
+        <div className="fixed flex items-center justify-center bottom-16 right-4 z-50">
           <FloatButton.Group
             trigger="click"
             type="primary"
@@ -63,7 +63,6 @@ createRoot(document.getElementById('root')!).render(
                 width: '1.2em',
                 height: '1.2em',
             }}
-
               countryCode="US" svg />}
             />
           </FloatButton.Group>
