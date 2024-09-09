@@ -44,8 +44,7 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
         setTheme(((theme:string)=>theme === "dark" ? "light" : "dark"));
       };
     
-      console.log(document.documentElement.classList);
-
+      
     return (
         <ThemeSwitcherContext.Provider value={{ setTheme, theme ,handleThemeSwitch}}>
             {children}

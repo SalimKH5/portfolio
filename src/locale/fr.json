@@ -1,151 +1,348 @@
 {
-    "translation": {
-      "subtitleSection1": "Bienvenue sur mon portfolio ! Explorez mon parcours et les projets que j'ai réalisés, mettant en valeur mes compétences et ma créativité. N'hésitez pas à me contacter si vous souhaitez en savoir plus ou collaborer.",
-      "subtitleAbout": "Je suis profondément passionné par les nouvelles technologies de l'information et de la communication, et j'aime explorer et comprendre les dernières avancées dans ce domaine dynamique. Mon enthousiasme pour l'innovation me pousse à rester à jour sur les développements de pointe et les tendances émergentes, afin de m'assurer de rester à l'avant-garde du progrès technologique. En tant que développeur Full-Stack avec une expertise en React.js, Express et Next.js, je prends plaisir à utiliser ces technologies pour créer des applications web robustes, évolutives et efficaces. Mon expérience couvre à la fois le développement front-end et back-end, ce qui me permet de concevoir des solutions fluides et centrées sur l'utilisateur, répondant à des défis concrets.",
-      "sideProject":"Découvrez une sélection de mes projets qui illustrent mon expertise à travers diverses technologies. Chaque projet met en avant des compétences et des outils différents que j'ai utilisés pour relever des défis uniques et fournir des solutions percutantes. Des applications web innovantes aux systèmes backend robustes, ces exemples démontrent ma polyvalence et mon engagement envers la qualité. Vous y trouverez un éventail varié de travaux qui reflètent non seulement mes compétences techniques, mais aussi ma volonté d'apprendre en continu. Mon portfolio témoigne de ma passion pour la création de solutions efficaces, performantes et faciles à utiliser.",
-      "titleAbout":"à propos",
-      "titleSide":"Projets personnels",
-      "navHome":"Home",
-      "navAbout":"à propos",
-      "navSideProject":"Projets personnels",
-      "ContactTitle":"Contactez-moi.",
-      "ContacteSubtitle":"Je serais ravi d'en savoir plus sur votre projet et comment je peux vous aider. Veuillez remplir le formulaire, et je reviendrai vers vous dès que possible.",
-      "ContactFormGmail":"Contactez-moi via le formulaire",
-      "ContactGithub":"Contactez-moi via LinkedIn",
-      "ContactLinkdean":"Voir mes projets sur Github",
-      "experiences": [
-        {
-          "date": "Octobre 2023 - Mars 2024 · 6 mois",
-          "role": "Développeur Frontend",
-          "company": "IMMERSIVE DIGITAL DEVELOPPEMENT (IDD)",
-          "responsibilities": [
-            "Création d'interfaces utilisateur intuitives et engageantes",
-            "Utilisation du framework Next.js pour des solutions frontend dynamiques et réactives",
-            "Collaboration avec l'équipe de design pour améliorer l'expérience utilisateur"
-          ]
-        },
-        {
-          "date": "Août 2023 - Octobre 2023 · 3 mois",
-          "role": "Développeur Full-stack",
-          "company": "Algitech.sol · Freelance",
-          "responsibilities": [
-            "Développement de fonctionnalités essentielles pour un site e-commerce en utilisant le framework PHP Yii2",
-            "Optimisation des performances du site et amélioration de l'expérience utilisateur"
-          ]
-        }
-      ],
-      "education": [
-    {
-      "start_date": "2 avril 2024",
-      "end_date": "actuellement",
-      "degree": "Master en Architecture Web",
-      "institution": "Digital School of Paris",
-      "notes": ""
-    },
-    {
-      "start_date": "17 juillet 2023",
-      "end_date": "26 septembre 2021",
-      "degree": "Diplôme de Master 2 en Bioinformatique",
-      "institution": "Université des Sciences et de la Technologie Houari Boumediene",
-      "notes": ""
-    },
-    {
-      "start_date": "15 juin 2021",
-      "end_date": "",
-      "degree": "Diplôme de Licence en Informatique",
-      "institution": "Université des Sciences et de la Technologie Houari Boumediene",
-      "notes": ""
-    },
-    {
-      "start_date": "20 juillet 2018",
-      "end_date": "",
-      "degree": "Baccalauréat en Mathématiques",
-      "institution": "",
-      "notes": ""
-    }
-      ],
-      "projects":[
-        {
-          "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagrame%20clone.png?alt=media&token=55d1fc1e-bc3a-4147-8331-41a90dae62cd",
-          "title": "Clone Instagram",
-          "id": 1,
-          "url": "https://instagram-clone-next-git-main-khadir-salims-projects.vercel.app/",
-          "githubUrl": "https://github.com/SalimKH5/instagram-clone-next",
-          "images": ["https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagrame%20clone.png?alt=media&token=55d1fc1e-bc3a-4147-8331-41a90dae62cd", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram2.png?alt=media&token=7c75bdb8-7164-46c8-8617-7c97afb2071e", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram3.png?alt=media&token=b5bbe50a-5829-44ee-850a-14766dc4289e", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram4.png?alt=media&token=1a8ed715-0d06-423e-b94a-06a4da2095e7", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram5.png?alt=media&token=71381a0e-9fc7-4dd5-8c3c-9406193f8881"],
-          "detail": "Un clone d'Instagram entièrement fonctionnel construit avec Next.js, tirant parti de ses capacités telles que les routes API et le rendu côté serveur pour répliquer les fonctionnalités principales d'Instagram. Inclut l'authentification des utilisateurs, les téléchargements de photos et les interactions en temps réel.",
-          "icons": [
-            { "icon": "RiNextjsFill", "text": "NextJs" },
-            { "icon": "FaReact", "text": "ReactJs" },
-            { "icon": "DiMongodb", "text": "Mongodb" },
-            { "icon": "RiTailwindCssFill", "text": "Tailwind css" },
-            { "icon": "LuFileJson", "text": "Json" },
-            { "icon": "FaHtml5", "text": "HTML5" },
-            { "icon": "SiTypescript", "text": "Typescript" }
-          ]
-        },
-        {
-          "image": "/social media dashboard.png",
-          "title": "Tableau de Bord des Réseaux Sociaux",
-          "id": 2,
-          "url": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard.png?alt=media&token=c6e90168-8708-4e98-9cdc-c6086201a51a",
-          "githubUrl": "https://github.com/SalimKH5/social-media-dashbord",
-          "images": ["https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard.png?alt=media&token=c6e90168-8708-4e98-9cdc-c6086201a51a", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard2.png?alt=media&token=a5f4a5e1-76c3-4cf5-b101-327205fb79f1", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard3.png?alt=media&token=4afbac91-7223-4490-8a66-27d1c6f8bfce"],
-          "detail": "Un tableau de bord dynamique pour les réseaux sociaux conçu avec HTML, CSS et JavaScript. Il propose une interface conviviale avec la possibilité de basculer entre les modes clair et sombre, ce qui le rend adaptable aux différentes préférences des utilisateurs et aux conditions d'éclairage.",
-          "icons": [
-            { "icon": "SiJavascript", "text": "Javascript" },
-            { "icon": "FaCss3Alt", "text": "CSS" },
-            { "icon": "FaHtml5", "text": "HTML5" },
-            { "icon": "LuFileJson", "text": "Json" }
-          ]
-        },
-        {
-          "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/youtube.png?alt=media&token=3bbadc37-f105-42e9-b96d-11b1eb9ef8f8",
-          "title": "Clone YouTube",
-          "id": 3,
-          "url": "https://gregarious-monstera-5e42e6.netlify.app/",
-          "githubUrl": "https://github.com/SalimKH5/Youtube-clone",
-          "images": ["https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/youtube.png?alt=media&token=3bbadc37-f105-42e9-b96d-11b1eb9ef8f8", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/yotube2.png?alt=media&token=f252f8be-7f83-4ff4-b8b1-12f790c24259", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/youtube3.png?alt=media&token=4cb3b4e7-7663-4a6a-bef9-ac5a97229390"],
-          "detail": "Un clone de YouTube développé avec React.js et une API externe. Il comprend une fonctionnalité de lecture vidéo et une fonction de recherche, offrant une expérience similaire à YouTube avec un design front-end personnalisé.",
-          "icons": [
-            { "icon": "FaReact", "text": "ReactJs" },
-            { "icon": "FaCss3Alt", "text": "CSS" },
-            { "icon": "FaHtml5", "text": "HTML5" },
-            { "icon": "LuFileJson", "text": "Json" }
-          ]
-        },
-        {
-          "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country.png?alt=media&token=1d8cded7-e98c-4d3b-93e0-60402faae152",
-          "title": "REST Country",
-          "id": 4,
-          "url": "https://rest-countries-master-git-main-khadir-salims-projects.vercel.app/",
-          "githubUrl": "https://github.com/SalimKH5/rest-countries-master",
-          "images": ["https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country.png?alt=media&token=1d8cded7-e98c-4d3b-93e0-60402faae152", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country2.png?alt=media&token=07dc9643-b50b-4026-adb2-491cc88b2e07", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country3.png?alt=media&token=e11a4535-5bca-4738-8d62-dafb4ca95525", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country4.png?alt=media&token=75399574-c6e4-4495-8743-e7944f615ff5"],
-          "detail": "Une application web construite avec React.js permettant aux utilisateurs d'explorer et de filtrer les pays en fonction de divers critères tels que la population, la région et les langues. Fournit un aperçu complet des données sur les pays avec une interface utilisateur réactive et interactive.",
-          "icons": [
-            { "icon": "FaReact", "text": "ReactJs" },
-            { "icon": "SiTypescript", "text": "Typescript" },
-            { "icon": "FaCss3Alt", "text": "CSS" },
-            { "icon": "FaHtml5", "text": "HTML5" },
-            { "icon": "LuFileJson", "text": "Json" }
-          ]
-        },
-        {
-          "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/static-job-listings.png?alt=media&token=8a8beb9d-e48f-4efd-b835-2f2b50ee6ccd",
-          "title": "Offres d'Emploi Statique",
-          "id": 5,
-          "url": "https://salimkh5.github.io/static-job-listings-master/",
-          "githubUrl": "https://github.com/SalimKH5/static-job-listings-master",
-          "images": ["https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/static-job-listings.png?alt=media&token=8a8beb9d-e48f-4efd-b835-2f2b50ee6ccd", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard2.png?alt=media&token=a5f4a5e1-76c3-4cf5-b101-327205fb79f1", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard3.png?alt=media&token=4afbac91-7223-4490-8a66-27d1c6f8bfce"],
-          "detail": "Une page d'offres d'emploi statique avec une fonctionnalité de recherche pour filtrer les annonces en fonction de différents critères tels que le titre du poste, le lieu et le type. Conçu avec une mise en page propre et simple pour offrir une expérience de recherche d'emploi efficace.",
-          "icons": [
-            { "icon": "FaReact", "text": "ReactJs" },
-            { "icon": "FaCss3Alt", "text": "CSS" },
-            { "icon": "FaHtml5", "text": "HTML5" },
-            { "icon": "LuFileJson", "text": "Json" }
-          ]
-        }
-      ]
-      
-
-    }
+  "translation": {
+    "subtitleSection1": "Bienvenue sur mon portfolio ! Explorez mon parcours et les projets que j'ai réalisés, mettant en valeur mes compétences et ma créativité. N'hésitez pas à me contacter si vous souhaitez en savoir plus ou collaborer.",
+    "subtitleAbout": "Je suis profondément passionné par les nouvelles technologies de l'information et de la communication, et j'aime explorer et comprendre les dernières avancées dans ce domaine dynamique. Mon enthousiasme pour l'innovation me pousse à rester à jour sur les développements de pointe et les tendances émergentes, afin de m'assurer de rester à l'avant-garde du progrès technologique. En tant que développeur Full-Stack avec une expertise en React.js, Express et Next.js, je prends plaisir à utiliser ces technologies pour créer des applications web robustes, évolutives et efficaces. Mon expérience couvre à la fois le développement front-end et back-end, ce qui me permet de concevoir des solutions fluides et centrées sur l'utilisateur, répondant à des défis concrets.",
+    "sideProject": "Découvrez une sélection de mes projets qui illustrent mon expertise à travers diverses technologies. Chaque projet met en avant des compétences et des outils différents que j'ai utilisés pour relever des défis uniques et fournir des solutions percutantes. Des applications web innovantes aux systèmes backend robustes, ces exemples démontrent ma polyvalence et mon engagement envers la qualité. Vous y trouverez un éventail varié de travaux qui reflètent non seulement mes compétences techniques, mais aussi ma volonté d'apprendre en continu. Mon portfolio témoigne de ma passion pour la création de solutions efficaces, performantes et faciles à utiliser.",
+    "titleAbout": "à propos",
+    "titleSide": "Projets personnels",
+    "navHome": "Home",
+    "navAbout": "à propos",
+    "navSideProject": "Projets personnels",
+    "ContactTitle": "Contactez-moi.",
+    "ContacteSubtitle": "Je serais ravi d'en savoir plus sur votre projet et comment je peux vous aider. Veuillez remplir le formulaire, et je reviendrai vers vous dès que possible.",
+    "ContactFormGmail": "Contactez-moi via le formulaire",
+    "ContactGithub": "Contactez-moi via LinkedIn",
+    "ContactLinkdean": "Voir mes projets sur Github",
+    "GeneralSkillsTitle": "Compétences General",
+    "experiences": [
+      {
+        "date": "Octobre 2023 - Mars 2024 · 6 mois",
+        "role": "Développeur Frontend",
+        "company": "IMMERSIVE DIGITAL DEVELOPPEMENT (IDD)",
+        "responsibilities": [
+          "Création d'interfaces utilisateur intuitives et engageantes",
+          "Utilisation du framework Next.js pour des solutions frontend dynamiques et réactives",
+          "Collaboration avec l'équipe de design pour améliorer l'expérience utilisateur"
+        ]
+      },
+      {
+        "date": "Août 2023 - Octobre 2023 · 3 mois",
+        "role": "Développeur Full-stack",
+        "company": "Algitech.sol · Freelance",
+        "responsibilities": [
+          "Développement de fonctionnalités essentielles pour un site e-commerce en utilisant le framework PHP Yii2",
+          "Optimisation des performances du site et amélioration de l'expérience utilisateur"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "start_date": "2 avril 2024",
+        "end_date": "actuellement",
+        "degree": "Master en Architecture Web",
+        "institution": "Digital School of Paris",
+        "notes": ""
+      },
+      {
+        "start_date": "17 juillet 2023",
+        "end_date": "26 septembre 2021",
+        "degree": "Diplôme de Master 2 en Bioinformatique",
+        "institution": "Université des Sciences et de la Technologie Houari Boumediene",
+        "notes": ""
+      },
+      {
+        "start_date": "15 juin 2021",
+        "end_date": "",
+        "degree": "Diplôme de Licence en Informatique",
+        "institution": "Université des Sciences et de la Technologie Houari Boumediene",
+        "notes": ""
+      },
+      {
+        "start_date": "20 juillet 2018",
+        "end_date": "",
+        "degree": "Baccalauréat en Mathématiques",
+        "institution": "",
+        "notes": ""
+      }
+    ],
+    "projects": [
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagrame%20clone.png?alt=media&token=55d1fc1e-bc3a-4147-8331-41a90dae62cd",
+        "title": "Clone Instagram",
+        "id": 1,
+        "url": "https://instagram-clone-next-git-main-khadir-salims-projects.vercel.app/",
+        "githubUrl": "https://github.com/SalimKH5/instagram-clone-next",
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagrame%20clone.png?alt=media&token=55d1fc1e-bc3a-4147-8331-41a90dae62cd",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram2.png?alt=media&token=7c75bdb8-7164-46c8-8617-7c97afb2071e",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram3.png?alt=media&token=b5bbe50a-5829-44ee-850a-14766dc4289e",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram4.png?alt=media&token=1a8ed715-0d06-423e-b94a-06a4da2095e7",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram5.png?alt=media&token=71381a0e-9fc7-4dd5-8c3c-9406193f8881"
+        ],
+        "detail": "Un clone d'Instagram entièrement fonctionnel construit avec Next.js, tirant parti de ses capacités telles que les routes API et le rendu côté serveur pour répliquer les fonctionnalités principales d'Instagram. Inclut l'authentification des utilisateurs, les téléchargements de photos et les interactions en temps réel.",
+        "icons": [
+          {
+            "icon": "RiNextjsFill",
+            "text": "NextJs"
+          },
+          {
+            "icon": "FaReact",
+            "text": "ReactJs"
+          },
+          {
+            "icon": "DiMongodb",
+            "text": "Mongodb"
+          },
+          {
+            "icon": "RiTailwindCssFill",
+            "text": "Tailwind css"
+          },
+          {
+            "icon": "LuFileJson",
+            "text": "Json"
+          },
+          {
+            "icon": "FaHtml5",
+            "text": "HTML5"
+          },
+          {
+            "icon": "SiTypescript",
+            "text": "Typescript"
+          }
+        ]
+      },
+      {
+        "image": "/social media dashboard.png",
+        "title": "Tableau de Bord des Réseaux Sociaux",
+        "id": 2,
+        "url": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard.png?alt=media&token=c6e90168-8708-4e98-9cdc-c6086201a51a",
+        "githubUrl": "https://github.com/SalimKH5/social-media-dashbord",
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard.png?alt=media&token=c6e90168-8708-4e98-9cdc-c6086201a51a",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard2.png?alt=media&token=a5f4a5e1-76c3-4cf5-b101-327205fb79f1",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard3.png?alt=media&token=4afbac91-7223-4490-8a66-27d1c6f8bfce"
+        ],
+        "detail": "Un tableau de bord dynamique pour les réseaux sociaux conçu avec HTML, CSS et JavaScript. Il propose une interface conviviale avec la possibilité de basculer entre les modes clair et sombre, ce qui le rend adaptable aux différentes préférences des utilisateurs et aux conditions d'éclairage.",
+        "icons": [
+          {
+            "icon": "SiJavascript",
+            "text": "Javascript"
+          },
+          {
+            "icon": "FaCss3Alt",
+            "text": "CSS"
+          },
+          {
+            "icon": "FaHtml5",
+            "text": "HTML5"
+          },
+          {
+            "icon": "LuFileJson",
+            "text": "Json"
+          }
+        ]
+      },
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/youtube.png?alt=media&token=3bbadc37-f105-42e9-b96d-11b1eb9ef8f8",
+        "title": "Clone YouTube",
+        "id": 3,
+        "url": "https://gregarious-monstera-5e42e6.netlify.app/",
+        "githubUrl": "https://github.com/SalimKH5/Youtube-clone",
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/youtube.png?alt=media&token=3bbadc37-f105-42e9-b96d-11b1eb9ef8f8",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/yotube2.png?alt=media&token=f252f8be-7f83-4ff4-b8b1-12f790c24259",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/youtube3.png?alt=media&token=4cb3b4e7-7663-4a6a-bef9-ac5a97229390"
+        ],
+        "detail": "Un clone de YouTube développé avec React.js et une API externe. Il comprend une fonctionnalité de lecture vidéo et une fonction de recherche, offrant une expérience similaire à YouTube avec un design front-end personnalisé.",
+        "icons": [
+          {
+            "icon": "FaReact",
+            "text": "ReactJs"
+          },
+          {
+            "icon": "FaCss3Alt",
+            "text": "CSS"
+          },
+          {
+            "icon": "FaHtml5",
+            "text": "HTML5"
+          },
+          {
+            "icon": "LuFileJson",
+            "text": "Json"
+          }
+        ]
+      },
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country.png?alt=media&token=1d8cded7-e98c-4d3b-93e0-60402faae152",
+        "title": "REST Country",
+        "id": 4,
+        "url": "https://rest-countries-master-git-main-khadir-salims-projects.vercel.app/",
+        "githubUrl": "https://github.com/SalimKH5/rest-countries-master",
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country.png?alt=media&token=1d8cded7-e98c-4d3b-93e0-60402faae152",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country2.png?alt=media&token=07dc9643-b50b-4026-adb2-491cc88b2e07",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country3.png?alt=media&token=e11a4535-5bca-4738-8d62-dafb4ca95525",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country4.png?alt=media&token=75399574-c6e4-4495-8743-e7944f615ff5"
+        ],
+        "detail": "Une application web construite avec React.js permettant aux utilisateurs d'explorer et de filtrer les pays en fonction de divers critères tels que la population, la région et les langues. Fournit un aperçu complet des données sur les pays avec une interface utilisateur réactive et interactive.",
+        "icons": [
+          {
+            "icon": "FaReact",
+            "text": "ReactJs"
+          },
+          {
+            "icon": "SiTypescript",
+            "text": "Typescript"
+          },
+          {
+            "icon": "FaCss3Alt",
+            "text": "CSS"
+          },
+          {
+            "icon": "FaHtml5",
+            "text": "HTML5"
+          },
+          {
+            "icon": "LuFileJson",
+            "text": "Json"
+          }
+        ]
+      },
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/static-job-listings.png?alt=media&token=8a8beb9d-e48f-4efd-b835-2f2b50ee6ccd",
+        "title": "Offres d'Emploi Statique",
+        "id": 5,
+        "url": "https://salimkh5.github.io/static-job-listings-master/",
+        "githubUrl": "https://github.com/SalimKH5/static-job-listings-master",
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/static-job-listings.png?alt=media&token=8a8beb9d-e48f-4efd-b835-2f2b50ee6ccd",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard2.png?alt=media&token=a5f4a5e1-76c3-4cf5-b101-327205fb79f1",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard3.png?alt=media&token=4afbac91-7223-4490-8a66-27d1c6f8bfce"
+        ],
+        "detail": "Une page d'offres d'emploi statique avec une fonctionnalité de recherche pour filtrer les annonces en fonction de différents critères tels que le titre du poste, le lieu et le type. Conçu avec une mise en page propre et simple pour offrir une expérience de recherche d'emploi efficace.",
+        "icons": [
+          {
+            "icon": "FaReact",
+            "text": "ReactJs"
+          },
+          {
+            "icon": "FaCss3Alt",
+            "text": "CSS"
+          },
+          {
+            "icon": "FaHtml5",
+            "text": "HTML5"
+          },
+          {
+            "icon": "LuFileJson",
+            "text": "Json"
+          }
+        ]
+      }
+    ],
+    "GeneralSkills": [
+      {
+        "title": "Développement Frontend",
+        "details": [
+          {
+            "text": "React.js",
+            "icon": "FaReact"
+          },
+          {
+            "text": "Next.js",
+            "icon": "RiNextjsFill"
+          },
+          {
+            "text": "Angular.js",
+            "icon": "FaAngular"
+          },
+          {
+            "text": "HTML5",
+            "icon": "FaHtml5"
+          },
+          {
+            "text": "CSS",
+            "icon": "FaCss3Alt"
+          },
+          {
+            "text": "Tailwind CSS",
+            "icon": "RiTailwindCssFill"
+          },
+          {
+            "text": "Javascript",
+            "icon": "SiJavascript"
+          }
+        ]
+      },
+      {
+        "title": "Développement Backend",
+        "details": [
+          {
+            "text": "Express.js",
+            "icon": "SiExpress"
+          },
+          {
+            "text": "PHP",
+            "icon": "FaPhp"
+          },
+          {
+            "text": "Yii 2",
+            "icon": "DiYii"
+          },
+          {
+            "text": ".Net",
+            "icon": "AiOutlineDotNet"
+          }
+        ]
+      },
+      {
+        "title": "Data Science",
+        "details": [
+          {
+            "text": "Python",
+            "icon": "FaPython"
+          },
+          {
+            "text": "Apprentissage Automatique",
+            "icon": "GiArtificialIntelligence"
+          }
+        ]
+      },
+      {
+        "title": "Gestion de Projet",
+        "details": [
+          {
+            "text": "Jira",
+            "icon": "FaJira"
+          },
+          {
+            "text": "Microsoft Project",
+            "icon": "PiMicrosoftPowerpointLogoLight"
+          }
+        ]
+      },
+      {
+        "title": "Gestion de Bases de Données",
+        "details": [
+          {
+            "text": "MySQL",
+            "icon": "DiMysql"
+          },
+          {
+            "text": "PostgreSQL",
+            "icon": "BiLogoPostgresql"
+          },
+          {
+            "text": "MongoDB",
+            "icon": "DiMongodb"
+          },
+          {
+            "text": "Firebase",
+            "icon": "IoLogoFirebase"
+          }
+        ]
+      }
+    ]
   }
+}

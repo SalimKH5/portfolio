@@ -142,11 +142,12 @@ const Project = () => {
                       {work?.images?.map((image: string, index: number) => (
 
                         <SwiperSlide
+                        key={index} 
                           onClick={() => { setPathService(image) }}
                           className='w-full swiper-slider h-full cursor-pointer'>
                           <LazyLoadImage
                             loading='eager'
-                            key={index} // Add a unique key for each item in a list
+                          // Add a unique key for each item in a list
                             src={`${image}`} // Assuming 'imagePath' is the field containing the image URL
                             alt=""
                             placeholder={<div className='w-full h-full rounded-2xl bg-slate-300 animate-pulse '></div>}
@@ -183,7 +184,7 @@ const Project = () => {
                   className="mySwiper px-8  flex items-center justify-between"
                 >   {work?.icons?.map((iconName: ISkillDetail, index: number) => {
                   const IconComponent = iconMap[iconName.icon];
-                  console.log({ IconComponent })
+                 
                   return IconComponent ?
                     <SwiperSlide key={index} className='swiper-slider flex items-center justify-center '>
                       <Tooltip title={iconName.text}>

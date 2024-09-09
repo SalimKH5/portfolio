@@ -1,5 +1,4 @@
 
-import skills from "../assets/skills.json"
 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -11,10 +10,15 @@ import "swiper/css/autoplay";
 import 'swiper/css/navigation';
 import ModalComponent from "./ModalComponent";
 import { useTranslation } from "react-i18next";
+import { useEffect, useState } from "react";
 const AboutContainer = () => {
 
     const {t}=useTranslation();
 
+    const [skills,setSkills]=useState<ISkills[]>([]);
+    useEffect(()=>{
+            setSkills(t("GeneralSkills",{returnObjects:true}))
+    },[t])
 
     return (
         <div id="about" className='w-full section-content h-auto lg:h-screen flex flex-col    justify-center items-center text-center gap-10 py-16'>
@@ -24,7 +28,7 @@ const AboutContainer = () => {
 
             <p className="text-lg">{t("subtitleAbout")}</p>
             <div className="w-full text-start">
-                <h2 className="text-2xl">My General Skills</h2>
+                <h2 className="text-2xl">{t("GeneralSkillsTitle")}</h2>
             </div>
 
             <Swiper
@@ -60,7 +64,7 @@ const AboutContainer = () => {
                 className="w-full min-h-20 max-w-md   lg:max-w-6xl 2xl:max-w-9xl grid lg:grid-cols-4 gap-16 "
             >
                 {
-                    skills.skills.map((skill: ISkills, index: number) => (
+                   skills.map((skill: ISkills, index: number) => (
                         <SwiperSlide
                             key={index}
                             className='w-full swiper-slide border-[1.5px] cursor-pointer hover:dark:bg-white hover:dark:text-black hover:dark:border-[#c5c5c5]     *:
