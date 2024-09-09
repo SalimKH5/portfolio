@@ -67,12 +67,12 @@
     ],
     "projects":[
       {
-        "image": "/instagrame clone.png",
+        "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagrame%20clone.png?alt=media&token=55d1fc1e-bc3a-4147-8331-41a90dae62cd",
         "title": "Instagram Clone",
         "id": 1,
         "url": "https://instagram-clone-next-git-main-khadir-salims-projects.vercel.app/",
         "githubUrl": "https://github.com/SalimKH5/instagram-clone-next",
-        "images": ["/instagrame clone.png", "/instagram2.png", "/instagram3.png", "/instagram4.png", "/instagram5.png"],
+        "images": ["https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagrame%20clone.png?alt=media&token=55d1fc1e-bc3a-4147-8331-41a90dae62cd", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram2.png?alt=media&token=7c75bdb8-7164-46c8-8617-7c97afb2071e", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram3.png?alt=media&token=b5bbe50a-5829-44ee-850a-14766dc4289e", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram4.png?alt=media&token=1a8ed715-0d06-423e-b94a-06a4da2095e7", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram5.png?alt=media&token=71381a0e-9fc7-4dd5-8c3c-9406193f8881"],
         "detail": "A fully functional Instagram clone built with Next.js, leveraging its capabilities such as API routes and server-side rendering to replicate the core features of Instagram. Includes user authentication, photo uploads, and real-time interactions.",
         "icons": [
           { "icon": "RiNextjsFill", "text": "NextJs" },
@@ -85,12 +85,12 @@
         ]
       },
       {
-        "image": "/social media dashboard.png",
+        "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard.png?alt=media&token=c6e90168-8708-4e98-9cdc-c6086201a51a",
         "title": "Social Media Dashboard",
         "id": 2,
         "url": "https://salimkh5.github.io/social-media-dashbord/",
         "githubUrl": "https://github.com/SalimKH5/social-media-dashbord",
-        "images": ["/social media dashboard.png", "/social media dashboard2.png", "/social media dashboard3.png"],
+        "images": ["https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard.png?alt=media&token=c6e90168-8708-4e98-9cdc-c6086201a51a", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard2.png?alt=media&token=a5f4a5e1-76c3-4cf5-b101-327205fb79f1", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard3.png?alt=media&token=4afbac91-7223-4490-8a66-27d1c6f8bfce"],
         "detail": "A dynamic social media dashboard designed with HTML, CSS, and JavaScript. Features a user-friendly interface with the ability to toggle between light and dark modes, making it adaptable to different user preferences and lighting conditions.",
         "icons": [
           { "icon": "SiJavascript", "text": "Javascript" },
@@ -100,12 +100,12 @@
         ]
       },
       {
-        "image": "/youtube.png",
+        "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/youtube.png?alt=media&token=3bbadc37-f105-42e9-b96d-11b1eb9ef8f8",
         "title": "YouTube Clone",
         "id": 3,
         "url": "https://gregarious-monstera-5e42e6.netlify.app/",
         "githubUrl": "https://github.com/SalimKH5/Youtube-clone",
-        "images": ["/youtube.png", "/yotube2.png", "/youtube3.png"],
+        "images": ["https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/youtube.png?alt=media&token=3bbadc37-f105-42e9-b96d-11b1eb9ef8f8", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/yotube2.png?alt=media&token=f252f8be-7f83-4ff4-b8b1-12f790c24259", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/youtube3.png?alt=media&token=4cb3b4e7-7663-4a6a-bef9-ac5a97229390"],
         "detail": "A YouTube clone developed using React.js and an external API. It includes video playback functionality and a search feature, providing a similar experience to YouTube with a custom front-end design.",
         "icons": [
           { "icon": "FaReact", "text": "ReactJs" },
@@ -115,12 +115,12 @@
         ]
       },
       {
-        "image": "/rest country.png",
+        "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country.png?alt=media&token=1d8cded7-e98c-4d3b-93e0-60402faae152",
         "title": "REST Country",
         "id": 4,
         "url": "https://rest-countries-master-git-main-khadir-salims-projects.vercel.app/",
         "githubUrl": "https://github.com/SalimKH5/rest-countries-master",
-        "images": ["/rest country.png", "/rest country2.png", "/rest country3.png", "/rest country4.png"],
+        "images": ["https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country.png?alt=media&token=1d8cded7-e98c-4d3b-93e0-60402faae152", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country2.png?alt=media&token=07dc9643-b50b-4026-adb2-491cc88b2e07", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country3.png?alt=media&token=e11a4535-5bca-4738-8d62-dafb4ca95525", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country4.png?alt=media&token=75399574-c6e4-4495-8743-e7944f615ff5"],
         "detail": "A web application built with React.js that allows users to explore and filter countries based on various criteria such as population, region, and languages. Provides a comprehensive overview of country data with a responsive and interactive UI.",
         "icons": [
           { "icon": "FaReact", "text": "ReactJs" },
@@ -131,12 +131,12 @@
         ]
       },
       {
-        "image": "/static-job-listings.png",
+        "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/static-job-listings.png?alt=media&token=8a8beb9d-e48f-4efd-b835-2f2b50ee6ccd",
         "title": "Static Job Listings",
         "id": 5,
         "url": "https://salimkh5.github.io/static-job-listings-master/",
         "githubUrl": "https://github.com/SalimKH5/static-job-listings-master",
-        "images": ["/static-job-listings.png", "/static-job-listings2.png", "static-job-listings3.png"],
+        "images": ["https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/static-job-listings.png?alt=media&token=8a8beb9d-e48f-4efd-b835-2f2b50ee6ccd", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard2.png?alt=media&token=a5f4a5e1-76c3-4cf5-b101-327205fb79f1", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard3.png?alt=media&token=4afbac91-7223-4490-8a66-27d1c6f8bfce"],
         "detail": "A static job listings page featuring a search functionality to filter job postings based on different criteria such as job title, location, and type. Designed with a clean and straightforward layout to provide an efficient job search experience.",
         "icons": [
           { "icon": "FaReact", "text": "ReactJs" },

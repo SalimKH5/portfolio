@@ -105,9 +105,10 @@ const Project = () => {
                         key={work.id} // Add a unique key for each item in a list
                         src={`${pathService}`} // Assuming 'imagePath' is the field containing the image URL
                         alt=""
-                        placeholder={<div className='w-full h-80 rounded-2xl bg-slate-300 animate-pulse '></div>}
-                        className=' w-full max-h-80  h-full rounded-2xl border-black border-[1px] '
-                        loading='eager'
+                        placeholder={<div className='w-full h-80 rounded-2xl flex items-center justify-center bg-slate-300 animate-pulse '></div>}
+                        className=' w-full max-h-80  h-full rounded-2xl bg-slate-300 border-black border-[1px] '
+                        loading='lazy'
+                     
                       />
                     </div>
                   </div>
