@@ -70,7 +70,7 @@ const Project = () => {
   const [pathService, setPathService] = useState<string>("");
   const [work,setWork]=useState<IWork>();
   const {t}=useTranslation();
-  
+  const [isLoaded,setIsLoaded]=useState<boolean>(false);
   useEffect(()=>{
     const works: IWork[] = t("projects",{returnObjects:true}); // Placeholder, replace with actual data source
 
@@ -106,8 +106,9 @@ const Project = () => {
                         src={`${pathService}`} // Assuming 'imagePath' is the field containing the image URL
                         alt=""
                         placeholder={<div className='w-full h-80 rounded-2xl flex items-center justify-center bg-slate-300 animate-pulse '></div>}
-                        className=' w-full max-h-80  h-full rounded-2xl bg-slate-300 border-black border-[1px] '
+                        className={`w-full max-h-80  h-full rounded-2xl bg-slate-300 border-black border-[1px] transition duration-500 ease-in-out ${isLoaded ? 'blur-0 opacity-100' : 'blur-lg opacity-100'}`}
                         loading='lazy'
+                        onLoad={()=>setIsLoaded(true)}
                      
                       />
                     </div>

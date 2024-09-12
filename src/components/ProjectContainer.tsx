@@ -5,7 +5,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const ProjectContainer = ({ propos }: { propos: IWork }) => {
     const [hover, setHover] = useState<boolean>(false);
-
+    const [isLoaded,setIsLoaded]=useState<boolean>(false);
     return (
         <a
             href={`/${propos.id}`}
@@ -18,7 +18,7 @@ const ProjectContainer = ({ propos }: { propos: IWork }) => {
             >
                 <h1 className='font-bold text-xl text-white'>{propos.title}</h1>
             </div>
-            <LazyLoadImage  placeholder={<div className='w-full h-60 rounded-2xl bg-slate-300 animate-pulse '></div>} src={propos.image} alt="" className="w-full h-full rounded-3xl" />
+            <LazyLoadImage  onLoad={()=>{setIsLoaded(true)}} loading="lazy"  placeholder={<div className='w-full h-60 rounded-2xl bg-slate-300 animate-pulse  '></div>} src={propos.image} alt="" className={`w-full h-full rounded-3xl transition duration-500 ease-in-out ${isLoaded ? 'blur-0 opacity-100' : 'blur-lg opacity-100'}`} />
         </a>
     );
 };
