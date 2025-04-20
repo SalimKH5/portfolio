@@ -21,7 +21,7 @@ const Contact = () => {
                 <ContactItem 
                 
                 subtitle={t("ContactLinkdean")}
-                content='Khadir Salim' icon={FaLinkedin} url='https://www.linkedin.com/in/salim-khadir-316aa3219/'/>
+                content='Khadir Salim' icon={FaLinkedin} url='https://www.linkedin.com/in/salimkhadir/'/>
                 <ContactItem 
                 subtitle={t("ContactGithub")}
                 content='SalimKh5' icon={FaGithub} url='https://github.com/salimKH5'/>

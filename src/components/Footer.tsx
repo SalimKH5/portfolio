@@ -11,7 +11,7 @@ const Footer = () => {
             <a target='_blank' href="https://github.com/salimKH5"><FaGithub size={30} /></a>
           </div>
           <div className='hover:scale-110 flex items-center justify-center'>
-            <a target='_blank' href="https://www.linkedin.com/in/salim-khadir-316aa3219/"><FaLinkedin size={30} /></a>
+            <a target='_blank' href="https://www.linkedin.com/in/salimkhadir/"><FaLinkedin size={30} /></a>
           </div>
         </div>
 

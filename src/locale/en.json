@@ -13,10 +13,21 @@
     "ContactFormGmail": "Contact me using the form",
     "ContactGithub": "See my projects on Github",
     "ContactLinkdean": "Contact me with Linkdean",
-    "GeneralSkillsTitle":"My General Skills",
+    "GeneralSkillsTitle": "My General Skills",
     "experiences": [
       {
-        "date": "Octobre 2023 - Mars 2024 · 6 mois",
+        "date": "Octobre 2024 - currently",
+        "role": "Full-stack Developer",
+        "localisation": "21 rue gambetta Houille Ile de france",
+        "company": "La Plume d'or et d'argent",
+        "responsibilities": [
+          "Development and maintenance of the company’s website.",
+          "Creation of responsive, secure, and user-friendly e-commerce PHP modules.",
+          "Implementation of core technologies: HTML, CSS, JavaScript, and PHP."
+        ]
+      },
+      {
+        "date": "Octobre 2023 - Mars 2024 · 6 months",
         "role": "Frontend Developer",
         "localisation": "Cheragga Algeria",
         "company": "IMMERSIVE DIGITAL DEVELOPPEMENT (IDD)",
@@ -38,9 +49,16 @@
     ],
     "education": [
       {
-        "start_date": "April 2, 2024",
+        "start_date": "21 octobre 2024",
         "end_date": "currently",
-        "degree": "Master's in Web Architecture",
+        "degree": "Master's 2 en Data Enginner",
+        "institution": "Digital School of Paris",
+        "notes": ""
+      },
+      {
+        "start_date": "April 2, 2024",
+        "end_date": "Septembre 30 2024",
+        "degree": "Master's 1 in Web Architecture",
         "institution": "Digital School of Paris",
         "notes": ""
       },
@@ -66,14 +84,20 @@
         "notes": ""
       }
     ],
-    "projects":[
+    "projects": [
       {
         "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagrame%20clone.png?alt=media&token=55d1fc1e-bc3a-4147-8331-41a90dae62cd",
         "title": "Instagram Clone",
         "id": 1,
         "url": "https://instagram-clone-next-git-main-khadir-salims-projects.vercel.app/",
         "githubUrl": "https://github.com/SalimKH5/instagram-clone-next",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagrame%20clone.png?alt=media&token=55d1fc1e-bc3a-4147-8331-41a90dae62cd", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram2.png?alt=media&token=7c75bdb8-7164-46c8-8617-7c97afb2071e", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram3.png?alt=media&token=b5bbe50a-5829-44ee-850a-14766dc4289e", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram4.png?alt=media&token=1a8ed715-0d06-423e-b94a-06a4da2095e7", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram5.png?alt=media&token=71381a0e-9fc7-4dd5-8c3c-9406193f8881"],
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagrame%20clone.png?alt=media&token=55d1fc1e-bc3a-4147-8331-41a90dae62cd",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram2.png?alt=media&token=7c75bdb8-7164-46c8-8617-7c97afb2071e",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram3.png?alt=media&token=b5bbe50a-5829-44ee-850a-14766dc4289e",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram4.png?alt=media&token=1a8ed715-0d06-423e-b94a-06a4da2095e7",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram5.png?alt=media&token=71381a0e-9fc7-4dd5-8c3c-9406193f8881"
+        ],
         "detail": "A fully functional Instagram clone built with Next.js, leveraging its capabilities such as API routes and server-side rendering to replicate the core features of Instagram. Includes user authentication, photo uploads, and real-time interactions.",
         "icons": [
           { "icon": "RiNextjsFill", "text": "NextJs" },
@@ -91,7 +115,11 @@
         "id": 2,
         "url": "https://salimkh5.github.io/social-media-dashbord/",
         "githubUrl": "https://github.com/SalimKH5/social-media-dashbord",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard.png?alt=media&token=c6e90168-8708-4e98-9cdc-c6086201a51a", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard2.png?alt=media&token=a5f4a5e1-76c3-4cf5-b101-327205fb79f1", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard3.png?alt=media&token=4afbac91-7223-4490-8a66-27d1c6f8bfce"],
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard.png?alt=media&token=c6e90168-8708-4e98-9cdc-c6086201a51a",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard2.png?alt=media&token=a5f4a5e1-76c3-4cf5-b101-327205fb79f1",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard3.png?alt=media&token=4afbac91-7223-4490-8a66-27d1c6f8bfce"
+        ],
         "detail": "A dynamic social media dashboard designed with HTML, CSS, and JavaScript. Features a user-friendly interface with the ability to toggle between light and dark modes, making it adaptable to different user preferences and lighting conditions.",
         "icons": [
           { "icon": "SiJavascript", "text": "Javascript" },
@@ -106,7 +134,11 @@
         "id": 3,
         "url": "https://gregarious-monstera-5e42e6.netlify.app/",
         "githubUrl": "https://github.com/SalimKH5/Youtube-clone",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/youtube.png?alt=media&token=3bbadc37-f105-42e9-b96d-11b1eb9ef8f8", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/yotube2.png?alt=media&token=f252f8be-7f83-4ff4-b8b1-12f790c24259", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/youtube3.png?alt=media&token=4cb3b4e7-7663-4a6a-bef9-ac5a97229390"],
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/youtube.png?alt=media&token=3bbadc37-f105-42e9-b96d-11b1eb9ef8f8",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/yotube2.png?alt=media&token=f252f8be-7f83-4ff4-b8b1-12f790c24259",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/youtube3.png?alt=media&token=4cb3b4e7-7663-4a6a-bef9-ac5a97229390"
+        ],
         "detail": "A YouTube clone developed using React.js and an external API. It includes video playback functionality and a search feature, providing a similar experience to YouTube with a custom front-end design.",
         "icons": [
           { "icon": "FaReact", "text": "ReactJs" },
@@ -121,7 +153,12 @@
         "id": 4,
         "url": "https://rest-countries-master-git-main-khadir-salims-projects.vercel.app/",
         "githubUrl": "https://github.com/SalimKH5/rest-countries-master",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country.png?alt=media&token=1d8cded7-e98c-4d3b-93e0-60402faae152", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country2.png?alt=media&token=07dc9643-b50b-4026-adb2-491cc88b2e07", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country3.png?alt=media&token=e11a4535-5bca-4738-8d62-dafb4ca95525", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country4.png?alt=media&token=75399574-c6e4-4495-8743-e7944f615ff5"],
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country.png?alt=media&token=1d8cded7-e98c-4d3b-93e0-60402faae152",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country2.png?alt=media&token=07dc9643-b50b-4026-adb2-491cc88b2e07",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country3.png?alt=media&token=e11a4535-5bca-4738-8d62-dafb4ca95525",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country4.png?alt=media&token=75399574-c6e4-4495-8743-e7944f615ff5"
+        ],
         "detail": "A web application built with React.js that allows users to explore and filter countries based on various criteria such as population, region, and languages. Provides a comprehensive overview of country data with a responsive and interactive UI.",
         "icons": [
           { "icon": "FaReact", "text": "ReactJs" },
@@ -137,7 +174,11 @@
         "id": 5,
         "url": "https://salimkh5.github.io/static-job-listings-master/",
         "githubUrl": "https://github.com/SalimKH5/static-job-listings-master",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/static-job-listings.png?alt=media&token=8a8beb9d-e48f-4efd-b835-2f2b50ee6ccd", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard2.png?alt=media&token=a5f4a5e1-76c3-4cf5-b101-327205fb79f1", "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard3.png?alt=media&token=4afbac91-7223-4490-8a66-27d1c6f8bfce"],
+        "images": [
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/static-job-listings.png?alt=media&token=8a8beb9d-e48f-4efd-b835-2f2b50ee6ccd",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard2.png?alt=media&token=a5f4a5e1-76c3-4cf5-b101-327205fb79f1",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard3.png?alt=media&token=4afbac91-7223-4490-8a66-27d1c6f8bfce"
+        ],
         "detail": "A static job listings page featuring a search functionality to filter job postings based on different criteria such as job title, location, and type. Designed with a clean and straightforward layout to provide an efficient job search experience.",
         "icons": [
           { "icon": "FaReact", "text": "ReactJs" },
@@ -147,57 +188,49 @@
         ]
       }
     ],
-    "GeneralSkills":[
+    "GeneralSkills": [
       {
         "title": "Frontend Development",
         "details": [
           {
-            "text":"React.js",
-            "icon":"FaReact"
+            "text": "React.js",
+            "icon": "FaReact"
           },
-          {  "text":"Next.js",
-            "icon":"RiNextjsFill"
-          },
-          {  "text":"Angular.js",
-             "icon":"FaAngular"
+          { "text": "Next.js", "icon": "RiNextjsFill" },
+          { "text": "Angular.js", "icon": "FaAngular" },
+          {
+            "text": "HTML5",
+            "icon": "FaHtml5"
           },
           {
-            "text":"HTML5",
-             "icon":"FaHtml5"
+            "text": "CSS",
+            "icon": "FaCss3Alt"
           },
           {
-            "text":"CSS",
-            "icon":"FaCss3Alt"
+            "text": "Tailwind css",
+            "icon": "RiTailwindCssFill"
           },
-          {
-            "text":"Tailwind css",
-            "icon":"RiTailwindCssFill"
-          },
-          {  "text":"Javascript",
-             "icon":"SiJavascript"
-          }
-          
+          { "text": "Javascript", "icon": "SiJavascript" }
         ]
       },
       {
-  
         "title": "Backend Development",
         "details": [
           {
-            "text":"Express.js",
-            "icon":"SiExpress"
+            "text": "Express.js",
+            "icon": "SiExpress"
           },
           {
-            "text":"PHP",
-            "icon":"FaPhp"
+            "text": "PHP",
+            "icon": "FaPhp"
           },
           {
-            "text":"Yii 2",
-            "icon":"DiYii"
+            "text": "Yii 2",
+            "icon": "DiYii"
           },
           {
-            "text":".Net",
-            "icon":"AiOutlineDotNet"
+            "text": ".Net",
+            "icon": "AiOutlineDotNet"
           }
         ]
       },
@@ -205,25 +238,25 @@
         "title": "Data Science",
         "details": [
           {
-            "text":"Python",
-            "icon":"FaPython"
+            "text": "Python",
+            "icon": "FaPython"
           },
           {
-            "text":"Machine Learning",
-            "icon":"GiArtificialIntelligence"
+            "text": "Machine Learning",
+            "icon": "GiArtificialIntelligence"
           }
         ]
       },
       {
         "title": "Project Management",
-       "details": [
+        "details": [
           {
-            "text":"Jira",
-            "icon":"FaJira"
+            "text": "Jira",
+            "icon": "FaJira"
           },
           {
-            "text":"Microsoft Project",
-            "icon":"PiMicrosoftPowerpointLogoLight"
+            "text": "Microsoft Project",
+            "icon": "PiMicrosoftPowerpointLogoLight"
           }
         ]
       },
@@ -231,25 +264,23 @@
         "title": "Database Management",
         "details": [
           {
-            "text":"Mysql",
-            "icon":"DiMysql"
+            "text": "Mysql",
+            "icon": "DiMysql"
           },
           {
-            "text":"Postgresql",
-            "icon":"BiLogoPostgresql"
+            "text": "Postgresql",
+            "icon": "BiLogoPostgresql"
           },
           {
-            "text":"Mongodb",
-            "icon":"DiMongodb"
+            "text": "Mongodb",
+            "icon": "DiMongodb"
           },
           {
-            "text":"Firebase",
-            "icon":"IoLogoFirebase"
+            "text": "Firebase",
+            "icon": "IoLogoFirebase"
           }
         ]
       }
-     
     ]
-    
   }
 }

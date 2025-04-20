@@ -16,7 +16,7 @@ function App() {
 
   return (
 
-    <div className="w-full h-full px-2 lg:px-0  max-w-sm sm:max-w-lg md:max-w-5xl xl:max-w-6xl">
+    <div className="w-full h-full px-4 lg:px-0  max-w-md sm:max-w-xl md:px-3 md:max-w-5xl xl:max-w-6xl">
       <HomeContainer />
       <AboutContainer />
       <Formations />

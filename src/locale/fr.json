@@ -20,6 +20,16 @@
         "role": "Développeur Frontend",
         "company": "IMMERSIVE DIGITAL DEVELOPPEMENT (IDD)",
         "responsibilities": [
+          "Développement et maintenance du site web de l'entreprise.",
+          "Création de modules PHP e-commerce responsives, sécurisés et optimisés pour l'expérience utilisateur.",
+          "Mise en œuvre de technologies clés : HTML, CSS, JavaScript et PHP."
+        ]
+      },
+      {
+        "date": "Octobre 2023 - Mars 2024 · 6 mois",
+        "role": "Développeur Frontend",
+        "company": "IMMERSIVE DIGITAL DEVELOPPEMENT (IDD)",
+        "responsibilities": [
           "Création d'interfaces utilisateur intuitives et engageantes",
           "Utilisation du framework Next.js pour des solutions frontend dynamiques et réactives",
           "Collaboration avec l'équipe de design pour améliorer l'expérience utilisateur"
@@ -37,9 +47,16 @@
     ],
     "education": [
       {
-        "start_date": "2 avril 2024",
+        "start_date": "21 octobre 2024",
         "end_date": "actuellement",
-        "degree": "Master en Architecture Web",
+        "degree": "Mastére 2 en Data Enginner",
+        "institution": "Digital School of Paris",
+        "notes": ""
+      },
+      {
+        "start_date": "2 avril 2024",
+        "end_date": "30 septembre 2024",
+        "degree": "Mastére 1 en Architecture Web",
         "institution": "Digital School of Paris",
         "notes": ""
       },

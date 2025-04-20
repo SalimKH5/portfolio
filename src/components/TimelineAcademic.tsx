@@ -2,7 +2,7 @@
 const TimelineAcademic = ({events}:{events:EducationExperience[]}) => {
   return (
     <div className="container ">
-            <div className="relative border-l-2 flex flex-col gap-6 xl:gap-8 border-black dark:border-white">
+            <div className="relative border-l-2 flex flex-col  gap-6 xl:gap-8 border-black dark:border-white">
                 {events.map((event, index) => (
                     <div key={index} className="relative flex flex-col gap-3  pl-6">
                         <div className="absolute w-2 h-2 bg-green-500 rounded-full -left-[5px] top-1.5"></div>

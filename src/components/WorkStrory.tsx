@@ -9,8 +9,8 @@ const WorkStrory = () => {
     
     return (
         <div id="home" className='w-full section-content h-auto lg:h-screen flex flex-col  lg:flex-row  py-[65px]'>
-            <div className="w-full h-full flex-col  flex gap-3 xl:gap-5 ">
-                <h1 className='text-4xl'>Experiences</h1>
+            <div className="w-full h-full flex-col justify-center items-center  flex gap-3 xl:gap-5 ">
+                <div className='w-full py-2'><h1 className='text-4xl'>Experiences</h1></div>
                 <div className="w-full px-5">
                     <Timeline events={t("experiences", { returnObjects: true })} />
                 </div>
