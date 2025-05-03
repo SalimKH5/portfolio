@@ -91,22 +91,22 @@ const Project = () => {
 
 
   return (
-    <div className="w-full h-full min-h-screen max-w-sm sm:max-w-md md:max-w-5xl xl:max-w-6xl py-20 px-5">
-      <div className='w-full  h-auto  flex flex-col  lg:flex-row '>
+    <div className="w-full h-full min-h-screen max-w-sm sm:max-w-md md:max-w-5xl xl:max-w-7xl py-20 px-5">
+      <div className='w-full h-full   flex flex-col  lg:flex-row '>
         <div className="w-full h-full flex  lg:flex-row flex-col-reverse items-center gap-8 justify-between">
 
-          <div className="w-full max-w-xl h-full flex items-center justify-center">
+          <div className="w-full max-w-2xl h-full flex items-center justify-center">
             <div className="w-full h-full flex items-center justify-center flex-col gap-3  ">
               {work && (
                 <>
                   <div className="w-full flex items-center justify-center">
-                    <div className='w-full max-h-80 h-full rounded-2xl relative'>
+                    <div className='w-full  h-full rounded-2xl relative'>
                       <LazyLoadImage
                         key={work.id} // Add a unique key for each item in a list
                         src={`${pathService}`} // Assuming 'imagePath' is the field containing the image URL
                         alt=""
-                        placeholder={<div className='w-full h-80 rounded-2xl flex items-center justify-center bg-slate-300 animate-pulse '></div>}
-                        className={`w-full max-h-80  h-full rounded-2xl bg-slate-300 border-black border-[1px] transition duration-500 ease-in-out ${isLoaded ? 'blur-0 opacity-100' : 'blur-lg opacity-100'}`}
+                        placeholder={<div className='w-full rounded-2xl flex items-center justify-center bg-slate-300 animate-pulse '></div>}
+                        className={`w-full   h-full rounded-2xl bg-slate-300 border-black border-[1px] transition duration-500 ease-in-out ${isLoaded ? 'blur-0 opacity-100' : 'blur-lg opacity-100'}`}
                         loading='lazy'
                         onLoad={()=>setIsLoaded(true)}
                      

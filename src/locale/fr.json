@@ -14,11 +14,12 @@
     "ContactGithub": "Voir mes projets sur Github",
     "ContactLinkdean": "Contactez-moi via LinkedIn",
     "GeneralSkillsTitle": "Compétences General",
+    "at":"Chez",
     "experiences": [
       {
-        "date": "Octobre 2023 - Mars 2024 · 6 mois",
+        "date": "Octobre 2024 - actuellement",
         "role": "Développeur Frontend",
-        "company": "IMMERSIVE DIGITAL DEVELOPPEMENT (IDD)",
+        "company": "La Plume d'or et d'argent",
         "responsibilities": [
           "Développement et maintenance du site web de l'entreprise.",
           "Création de modules PHP e-commerce responsives, sécurisés et optimisés pour l'expérience utilisateur.",
@@ -61,8 +62,8 @@
         "notes": ""
       },
       {
-        "start_date": "17 juillet 2023",
-        "end_date": "26 septembre 2021",
+        "start_date": "26 septembre 2021",
+        "end_date": "17 juillet 2023",
         "degree": "Diplôme de Master 2 en Bioinformatique",
         "institution": "Université des Sciences et de la Technologie Houari Boumediene",
         "notes": ""

@@ -14,6 +14,7 @@
     "ContactGithub": "See my projects on Github",
     "ContactLinkdean": "Contact me with Linkdean",
     "GeneralSkillsTitle": "My General Skills",
+    "at":"at",
     "experiences": [
       {
         "date": "Octobre 2024 - currently",
@@ -63,8 +64,8 @@
         "notes": ""
       },
       {
-        "start_date": "July 17, 2023",
-        "end_date": "September 26, 2021",
+        "start_date": "September 26, 2021",
+        "end_date": "July 17, 2023",
         "degree": "Master's Degree in Bioinformatics",
         "institution": "University of Science and Technology Houari Boumediene",
         "notes": ""

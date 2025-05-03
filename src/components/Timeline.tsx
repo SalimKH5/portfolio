@@ -1,7 +1,8 @@
+import { useTranslation } from "react-i18next";
 
 
 const Timeline = ({events}:{events:IEvent[]}) => {
-   
+    const {t}=useTranslation();
 
     return (
         <div className="container ">
@@ -11,7 +12,7 @@ const Timeline = ({events}:{events:IEvent[]}) => {
                         <div className="absolute w-2 h-2 bg-green-500 rounded-full -left-[5px] top-1.5"></div>
                         <p className="text-sm">{event?.date}</p>
                         <h2 className="abosulte left-16 text-sm xl:text-base font-semibold text-gray-800 dark:text-gray-400">
-                            {event.role} chez {event.company}
+                            {event.role} {t("at")} {event.company}
                         </h2>
                         <ul className="pl-8 list-disc">
                         {
