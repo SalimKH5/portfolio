@@ -4,7 +4,7 @@ import ProjectContainer from './ProjectContainer'
 const works: IWork[] = [
     {
         "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagrame%20clone.png?alt=media&token=55d1fc1e-bc3a-4147-8331-41a90dae62cd",
-        "title": "Instagram Clone",
+        "title": "Snaply",
         "id": 1,
         "detail": "A fully functional Instagram clone built with Next.js, leveraging its capabilities such as API routes and server-side rendering to replicate the core features of Instagram. Includes user authentication, photo uploads, and real-time interactions.",
     
