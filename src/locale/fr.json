@@ -85,17 +85,17 @@
     ],
     "projects": [
       {
-        "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagrame%20clone.png?alt=media&token=55d1fc1e-bc3a-4147-8331-41a90dae62cd",
+        "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/snapply1.png?alt=media&token=1039bfe9-0152-4ffe-90de-9aebe512a9e1",
         "title": "snapply",
         "id": 1,
         "url": "https://snaply-git-main-khadir-salims-projects.vercel.app/",
         "githubUrl": "https://github.com/SalimKH5/Snaply",
-        "images": [
-          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagrame%20clone.png?alt=media&token=55d1fc1e-bc3a-4147-8331-41a90dae62cd",
-          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram2.png?alt=media&token=7c75bdb8-7164-46c8-8617-7c97afb2071e",
-          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram3.png?alt=media&token=b5bbe50a-5829-44ee-850a-14766dc4289e",
-          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram4.png?alt=media&token=1a8ed715-0d06-423e-b94a-06a4da2095e7",
-          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagram5.png?alt=media&token=71381a0e-9fc7-4dd5-8c3c-9406193f8881"
+         "images": [
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/snapply1.png?alt=media&token=1039bfe9-0152-4ffe-90de-9aebe512a9e1",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/snapply2.png?alt=media&token=76eb4790-8792-469a-bacd-160e7c351138",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/snapply3.png?alt=media&token=d8185723-b502-4ef0-85be-f5b24ec0ad18",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/snapply4.png?alt=media&token=ae67769a-9292-420b-8646-d8b70f3cdebf",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/snapply5.png?alt=media&token=e075aca0-1f72-44dd-8a4f-5bcc31e9f172"
         ],
         "detail": "Un clone d'Instagram entièrement fonctionnel construit avec Next.js, tirant parti de ses capacités telles que les routes API et le rendu côté serveur pour répliquer les fonctionnalités principales d'Instagram. Inclut l'authentification des utilisateurs, les téléchargements de photos et les interactions en temps réel.",
          "shortDescription": "Clone fonctionnel d’Instagram avec authentification, posts et interactions en temps réel.",
