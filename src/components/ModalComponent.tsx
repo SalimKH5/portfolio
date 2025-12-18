@@ -1,86 +1,77 @@
-import {  useState } from 'react';
-import { Modal } from 'antd';
-import { FaAngular, FaCss3Alt, FaHtml5, FaJira, FaPhp, FaPython, FaReact } from 'react-icons/fa';
-import { RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri';
-import { SiExpress, SiJavascript } from 'react-icons/si';
-import { DiMongodb, DiMysql, DiYii } from 'react-icons/di';
-import { AiOutlineDotNet } from 'react-icons/ai';
-import { GiArtificialIntelligence } from 'react-icons/gi';
-import { PiMicrosoftPowerpointLogoLight } from 'react-icons/pi';
-import { BiLogoPostgresql } from 'react-icons/bi';
-import { IoLogoFirebase } from 'react-icons/io5';
+import { Popover } from 'antd';
+import type { FC } from 'react';
 
+// Import icon packs as namespaces
+import * as FaIcons from 'react-icons/fa';
+import * as SiIcons from 'react-icons/si';
+import * as RiIcons from 'react-icons/ri';
+import * as DiIcons from 'react-icons/di';
+import * as AiIcons from 'react-icons/ai';
+import * as GiIcons from 'react-icons/gi';
+import * as PiIcons from 'react-icons/pi';
+import * as BiIcons from 'react-icons/bi';
+import * as IoIcons from 'react-icons/io5';
 
-
-
-// Map icon names to components
-const iconMap: Record<string, React.ElementType> = {
-    FaAngular: FaAngular,
-    FaCss3Alt: FaCss3Alt,
-    FaHtml5: FaHtml5,
-    FaJira: FaJira,
-    FaPhp: FaPhp,
-    FaReact: FaReact,
-    RiNextjsFill: RiNextjsFill,
-    SiExpress: SiExpress,
-    SiJavascript: SiJavascript,
-    DiMongodb: DiMongodb,
-    DiMysql: DiMysql,
-    RiTailwindCssFill:RiTailwindCssFill,
-    DiYii: DiYii,
-    FaPython: FaPython,
-    AiOutlineDotNet: AiOutlineDotNet,
-    GiArtificialIntelligence: GiArtificialIntelligence,
-    PiMicrosoftPowerpointLogoLight: PiMicrosoftPowerpointLogoLight,
-    BiLogoPostgresql: BiLogoPostgresql,
-    IoLogoFirebase: IoLogoFirebase,
+// Icon library registry
+const iconLibraries: Record<string, Record<string, React.ElementType>> = {
+  Fa: FaIcons,
+  Si: SiIcons,
+  Ri: RiIcons,
+  Di: DiIcons,
+  Ai: AiIcons,
+  Gi: GiIcons,
+  Pi: PiIcons,
+  Bi: BiIcons,
+  Io: IoIcons,
 };
 
+// Dynamic icon resolver
+const getIconByName = (iconName?: string): React.ElementType | null => {
+  if (!iconName) return null;
+  const prefix = iconName.slice(0, 2);
+  const library = iconLibraries[prefix];
+  return library?.[iconName] ?? null;
+};
 
 interface ModalComponentProps {
-
-    Skill?: ISkills
+  Skill?: ISkills;
 }
 
-const ModalComponent = ({  Skill }: ModalComponentProps) => {
-    const [isModalOpen, setIsModalOpen] = useState(false);
+const ModalComponent: FC<ModalComponentProps> = ({ Skill }) => {
+  
 
-    const showModal = () => {
-        setIsModalOpen(true);
-    };
+  const popoverContent = (
+    <div className="flex flex-col gap-2 min-w-[180px]">
+      {Skill?.details?.map((item, index) => {
+        const Icon = getIconByName(item.icon);
 
-    const handleOk = () => {
-        setIsModalOpen(false);
-    };
+        return (
+          <div
+            key={index}
+            className="flex items-center gap-2 text-sm"
+          >
+            {Icon && <Icon size={18} />}
+            <span>{item.text}</span>
+          </div>
+        );
+      })}
+    </div>
+  );
 
-    const handleCancel = () => {
-        setIsModalOpen(false);
-    };
-
-
-    return (
-        <>
-            <button className='py-8  bg-transparent border-none' onClick={showModal}>
-            {Skill?.title}
-            </button>
-            <Modal title={Skill?.title} open={isModalOpen} onOk={handleOk} footer={null} onCancel={handleCancel} className='w-full px-12 flex items-center justify-center flex-col gap-8 '>
-                <div className="w-full h-full bg-white flex flex-col gap-4">
-                    {Skill?.details?.map((iconName, index) => {
-                        const IconComponent = iconMap[iconName.icon];
-                        return IconComponent ?
-                            <div key={index} className="w-full flex items-center gap-2">
-                                <IconComponent size={30} />
-                                <h1>{iconName.text}</h1>
-                            </div>
-                            :
-                            null;
-                    })}
-                </div>
-
-            </Modal>
-        </>
-    );
+  return (
+    <Popover
+      content={popoverContent}
+      trigger="hover"
+      placement="bottom"
+    >
+      <button
+        type="button"
+        className="w-full py-2 bg-transparent border-none cursor-pointer text-center"
+      >
+        {Skill?.title}
+      </button>
+    </Popover>
+  );
 };
 
-
-export default ModalComponent
+export default ModalComponent;

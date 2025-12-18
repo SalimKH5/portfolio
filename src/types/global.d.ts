@@ -32,6 +32,7 @@ declare global {
         title?:string,
         image:string
         id:number,
+        shortDescription?:string,
         detail?:string,
         url?:string,
         githubUrl?:string,
@@ -45,6 +46,9 @@ declare global {
         subject: string,
         html: any, 
     }
-    
+    interface SelectImage{
+        image:string,
+        index:number,
+    }
 
 }

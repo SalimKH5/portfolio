@@ -90,7 +90,8 @@
         "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagrame%20clone.png?alt=media&token=55d1fc1e-bc3a-4147-8331-41a90dae62cd",
         "title": "Instagram Clone",
         "id": 1,
-        "url": "https://instagram-clone-next-git-main-khadir-salims-projects.vercel.app/",
+         "shortDescription": "Full-featured Instagram clone with authentication, posts, and real-time interactions.",
+        "url": "https://instagram-clone-next-seven.vercel.app/",
         "githubUrl": "https://github.com/SalimKH5/instagram-clone-next",
         "images": [
           "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/instagrame%20clone.png?alt=media&token=55d1fc1e-bc3a-4147-8331-41a90dae62cd",
@@ -114,6 +115,7 @@
         "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard.png?alt=media&token=c6e90168-8708-4e98-9cdc-c6086201a51a",
         "title": "Social Media Dashboard",
         "id": 2,
+        "shortDescription": "Interactive dashboard with social stats and light/dark mode support.",
         "url": "https://salimkh5.github.io/social-media-dashbord/",
         "githubUrl": "https://github.com/SalimKH5/social-media-dashbord",
         "images": [
@@ -133,6 +135,7 @@
         "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/youtube.png?alt=media&token=3bbadc37-f105-42e9-b96d-11b1eb9ef8f8",
         "title": "YouTube Clone",
         "id": 3,
+         "shortDescription": "Video streaming app with search and playback using an external API.",
         "url": "https://gregarious-monstera-5e42e6.netlify.app/",
         "githubUrl": "https://github.com/SalimKH5/Youtube-clone",
         "images": [
@@ -152,6 +155,7 @@
         "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country.png?alt=media&token=1d8cded7-e98c-4d3b-93e0-60402faae152",
         "title": "REST Country",
         "id": 4,
+        "shortDescription": "Country explorer app with filters by region, population, and language.",
         "url": "https://rest-countries-master-git-main-khadir-salims-projects.vercel.app/",
         "githubUrl": "https://github.com/SalimKH5/rest-countries-master",
         "images": [
@@ -173,6 +177,7 @@
         "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/static-job-listings.png?alt=media&token=8a8beb9d-e48f-4efd-b835-2f2b50ee6ccd",
         "title": "Static Job Listings",
         "id": 5,
+         "shortDescription": "Job listings page with dynamic filters and clean UI.",
         "url": "https://salimkh5.github.io/static-job-listings-master/",
         "githubUrl": "https://github.com/SalimKH5/static-job-listings-master",
         "images": [
@@ -189,99 +194,201 @@
         ]
       }
     ],
-    "GeneralSkills": [
-      {
-        "title": "Frontend Development",
-        "details": [
-          {
-            "text": "React.js",
-            "icon": "FaReact"
-          },
-          { "text": "Next.js", "icon": "RiNextjsFill" },
-          { "text": "Angular.js", "icon": "FaAngular" },
-          {
-            "text": "HTML5",
-            "icon": "FaHtml5"
-          },
-          {
-            "text": "CSS",
-            "icon": "FaCss3Alt"
-          },
-          {
-            "text": "Tailwind css",
-            "icon": "RiTailwindCssFill"
-          },
-          { "text": "Javascript", "icon": "SiJavascript" }
-        ]
-      },
-      {
-        "title": "Backend Development",
-        "details": [
-          {
-            "text": "Express.js",
-            "icon": "SiExpress"
-          },
-          {
-            "text": "PHP",
-            "icon": "FaPhp"
-          },
-          {
-            "text": "Yii 2",
-            "icon": "DiYii"
-          },
-          {
-            "text": ".Net",
-            "icon": "AiOutlineDotNet"
-          }
-        ]
-      },
-      {
-        "title": "Data Science",
-        "details": [
-          {
-            "text": "Python",
-            "icon": "FaPython"
-          },
-          {
-            "text": "Machine Learning",
-            "icon": "GiArtificialIntelligence"
-          }
-        ]
-      },
-      {
-        "title": "Project Management",
-        "details": [
-          {
-            "text": "Jira",
-            "icon": "FaJira"
-          },
-          {
-            "text": "Microsoft Project",
-            "icon": "PiMicrosoftPowerpointLogoLight"
-          }
-        ]
-      },
-      {
-        "title": "Database Management",
-        "details": [
-          {
-            "text": "Mysql",
-            "icon": "DiMysql"
-          },
-          {
-            "text": "Postgresql",
-            "icon": "BiLogoPostgresql"
-          },
-          {
-            "text": "Mongodb",
-            "icon": "DiMongodb"
-          },
-          {
-            "text": "Firebase",
-            "icon": "IoLogoFirebase"
-          }
-        ]
-      }
-    ]
+  "GeneralSkills": [
+    {
+      "title": "Frontend Development",
+      "details": [
+        {
+          "text": "React.js",
+          "icon": "FaReact"
+        },
+        {
+          "text": "Next.js",
+          "icon": "RiNextjsFill"
+        },
+        {
+          "text": "TypeScript",
+          "icon": "SiTypescript"
+        },
+        {
+          "text": "JavaScript",
+          "icon": "SiJavascript"
+        },
+        {
+          "text": "Vue.js",
+          "icon": "FaVuejs"
+        },
+        {
+          "text": "Angular",
+          "icon": "FaAngular"
+        },
+        {
+          "text": "Tailwind CSS",
+          "icon": "RiTailwindCssFill"
+        },
+        {
+          "text": "Bootstrap",
+          "icon": "FaBootstrap"
+        },
+        {
+          "text": "CSS / SCSS",
+          "icon": "FaCss3Alt"
+        },
+        {
+          "text": "HTML5",
+          "icon": "FaHtml5"
+        }
+      ]
+    },
+    {
+      "title": "Backend Development",
+      "details": [
+        {
+          "text": "Java",
+          "icon": "FaJava"
+        },
+        {
+          "text": "Spring Boot",
+          "icon": "SiSpringboot"
+        },
+        {
+          "text": "PHP",
+          "icon": "FaPhp"
+        },
+        {
+          "text": "Symfony",
+          "icon": "SiSymfony"
+        },
+        {
+          "text": "NestJS",
+          "icon": "SiNestjs"
+        },
+        {
+          "text": "Express.js",
+          "icon": "SiExpress"
+        },
+        {
+          "text": "Django",
+          "icon": "SiDjango"
+        },
+        {
+          "text": ".NET / C#",
+          "icon": "AiOutlineDotNet"
+        },
+        {
+          "text": "Go",
+          "icon": "FaGolang"
+        }
+      ]
+    },
+    {
+      "title": "Data Science & AI",
+      "details": [
+        {
+          "text": "Python",
+          "icon": "FaPython"
+        },
+        {
+          "text": "Machine Learning",
+          "icon": "GiArtificialIntelligence"
+        },
+        {
+          "text": "Deep Learning",
+          "icon": "SiKeras"
+        },
+        {
+          "text": "TensorFlow",
+          "icon": "SiTensorflow"
+        },
+        {
+          "text": "Pandas / NumPy",
+          "icon": "SiPandas"
+        },
+        {
+          "text": "Power BI",
+          "icon": "SiPowerbi"
+        },
+        {
+          "text": "R",
+          "icon": "FaRProject"
+        }
+      ]
+    },
+    {
+      "title": "DevOps & Tools",
+      "details": [
+        {
+          "text": "Docker",
+          "icon": "FaDocker"
+        },
+        {
+          "text": "Kubernetes",
+          "icon": "SiKubernetes"
+        },
+        {
+          "text": "Jenkins",
+          "icon": "FaJenkins"
+        },
+        {
+          "text": "GitLab CI / GitHub",
+          "icon": "FaGitlab"
+        },
+        {
+          "text": "SonarQube",
+          "icon": "SiSonarqube"
+        },
+        {
+          "text": "Selenium",
+          "icon": "SiSelenium"
+        }
+      ]
+    },
+    {
+      "title": "Database Management",
+      "details": [
+        {
+          "text": "PostgreSQL",
+          "icon": "BiLogoPostgresql"
+        },
+        {
+          "text": "MySQL",
+          "icon": "DiMysql"
+        },
+        {
+          "text": "Oracle",
+          "icon": "SiOracle"
+        },
+        {
+          "text": "MongoDB",
+          "icon": "DiMongodb"
+        },
+        {
+          "text": "Cassandra DB",
+          "icon": "SiApachecassandra"
+        },
+        {
+          "text": "Firebase",
+          "icon": "IoLogoFirebase"
+        }
+      ]
+    },
+    {
+      "title": "Project Management",
+      "details": [
+        {
+          "text": "Agile / Scrum",
+          "icon": "FaTasks"
+        },
+        {
+          "text": "Jira",
+          "icon": "FaJira"
+        },
+        {
+          "text": "Microsoft Project",
+          "icon": "PiMicrosoftPowerpointLogoLight"
+        }
+      ]
+    }
+  ]
   }
 }

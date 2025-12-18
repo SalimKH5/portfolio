@@ -15,6 +15,7 @@ import './i18n.js' // ts => import './i18n.ts'
 import CvPage from './page/CvPage.tsx';
 import { FloatButton } from 'antd';
 import ReactCountryFlag from 'react-country-flag';
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -38,7 +39,7 @@ const openPdfInNewTab = (cv:string) => {
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ThemeProvider>
-      <div className='bg-zinc-100 font-mono dark:bg-[#221F1F] no-scrollbar w-full h-full container-main dark:text-white   flex items-center justify-center py-4 '>
+      <div className='bg-zinc-100 font-sans dark:bg-[#221F1F] w-full h-full  dark:text-white   flex items-center justify-center py-4 '>
         <Navbar />
         <RouterProvider router={router} />
         <Footer />
