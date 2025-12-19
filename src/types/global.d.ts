@@ -6,7 +6,8 @@ export { }
 declare global {
     interface ISkillDetail{
         icon:string,
-        text:string
+        text:string,
+        color:?string,
     }
     interface ISkills{
         title?:string,

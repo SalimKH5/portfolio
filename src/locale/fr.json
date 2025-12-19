@@ -1,8 +1,8 @@
 {
   "translation": {
     "subtitleSection1": "Bienvenue sur mon portfolio ! Explorez mon parcours et les projets que j'ai réalisés, mettant en valeur mes compétences et ma créativité. N'hésitez pas à me contacter si vous souhaitez en savoir plus ou collaborer.",
-    "subtitleAbout": "Je suis profondément passionné par les nouvelles technologies de l'information et de la communication, et j'aime explorer et comprendre les dernières avancées dans ce domaine dynamique. Mon enthousiasme pour l'innovation me pousse à rester à jour sur les développements de pointe et les tendances émergentes, afin de m'assurer de rester à l'avant-garde du progrès technologique. En tant que développeur Full-Stack avec une expertise en React.js, Express et Next.js, je prends plaisir à utiliser ces technologies pour créer des applications web robustes, évolutives et efficaces. Mon expérience couvre à la fois le développement front-end et back-end, ce qui me permet de concevoir des solutions fluides et centrées sur l'utilisateur, répondant à des défis concrets.",
-    "sideProject": "Découvrez une sélection de mes projets qui illustrent mon expertise à travers diverses technologies. Chaque projet met en avant des compétences et des outils différents que j'ai utilisés pour relever des défis uniques et fournir des solutions percutantes. Des applications web innovantes aux systèmes backend robustes, ces exemples démontrent ma polyvalence et mon engagement envers la qualité. Vous y trouverez un éventail varié de travaux qui reflètent non seulement mes compétences techniques, mais aussi ma volonté d'apprendre en continu. Mon portfolio témoigne de ma passion pour la création de solutions efficaces, performantes et faciles à utiliser.",
+    "subtitleAbout": "Développeur Full-Stack spécialisé en React.js, Next.js et Express, passionné par les nouvelles technologies et l’innovation. Expérimenté en développement front-end et back-end, je conçois des applications web performantes, évolutives et centrées sur l’utilisateur.",
+    "sideProject": "Découvrez une sélection de projets illustrant mon expertise sur différentes technologies. Chaque réalisation met en avant des solutions efficaces et performantes, reflétant ma polyvalence, mon sens de la qualité et mon engagement dans l’apprentissage continu.",
     "titleAbout": "à propos",
     "titleSide": "Projets personnels",
     "navHome": "Home",
@@ -14,7 +14,7 @@
     "ContactGithub": "Voir mes projets sur Github",
     "ContactLinkdean": "Contactez-moi via LinkedIn",
     "GeneralSkillsTitle": "Compétences General",
-    "at":"Chez",
+    "at": "Chez",
     "experiences": [
       {
         "date": "Octobre 2024 - actuellement",
@@ -90,7 +90,7 @@
         "id": 1,
         "url": "https://snaply-git-main-khadir-salims-projects.vercel.app/",
         "githubUrl": "https://github.com/SalimKH5/Snaply",
-         "images": [
+        "images": [
           "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/snapply1.png?alt=media&token=1039bfe9-0152-4ffe-90de-9aebe512a9e1",
           "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/snapply2.png?alt=media&token=76eb4790-8792-469a-bacd-160e7c351138",
           "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/snapply3.png?alt=media&token=d8185723-b502-4ef0-85be-f5b24ec0ad18",
@@ -98,7 +98,7 @@
           "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/snapply5.png?alt=media&token=e075aca0-1f72-44dd-8a4f-5bcc31e9f172"
         ],
         "detail": "Un clone d'Instagram entièrement fonctionnel construit avec Next.js, tirant parti de ses capacités telles que les routes API et le rendu côté serveur pour répliquer les fonctionnalités principales d'Instagram. Inclut l'authentification des utilisateurs, les téléchargements de photos et les interactions en temps réel.",
-         "shortDescription": "Clone fonctionnel d’Instagram avec authentification, posts et interactions en temps réel.",
+        "shortDescription": "Clone fonctionnel d’Instagram avec authentification, posts et interactions en temps réel.",
         "icons": [
           {
             "icon": "RiNextjsFill",
@@ -134,7 +134,7 @@
         "image": "/social media dashboard.png",
         "title": "Tableau de Bord des Réseaux Sociaux",
         "id": 2,
-         "shortDescription": "Dashboard interactif avec statistiques sociales et mode clair / sombre.",
+        "shortDescription": "Dashboard interactif avec statistiques sociales et mode clair / sombre.",
         "url": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/social%20media%20dashboard.png?alt=media&token=c6e90168-8708-4e98-9cdc-c6086201a51a",
         "githubUrl": "https://github.com/SalimKH5/social-media-dashbord",
         "images": [
@@ -164,7 +164,7 @@
       },
       {
         "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/youtube.png?alt=media&token=3bbadc37-f105-42e9-b96d-11b1eb9ef8f8",
-        "title": "Clone YouTube",
+        "title": "NovaStream",
         "id": 3,
         "shortDescription": "Application React permettant de rechercher et lire des vidéos via une API externe.",
         "url": "https://gregarious-monstera-5e42e6.netlify.app/",
@@ -198,7 +198,7 @@
         "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/rest%20country.png?alt=media&token=1d8cded7-e98c-4d3b-93e0-60402faae152",
         "title": "REST Country",
         "id": 4,
-          "shortDescription": "Exploration et filtrage de pays à partir de l’API REST Countries.",
+        "shortDescription": "Exploration et filtrage de pays à partir de l’API REST Countries.",
         "url": "https://rest-countries-master-git-main-khadir-salims-projects.vercel.app/",
         "githubUrl": "https://github.com/SalimKH5/rest-countries-master",
         "images": [
@@ -235,7 +235,7 @@
         "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/static-job-listings.png?alt=media&token=8a8beb9d-e48f-4efd-b835-2f2b50ee6ccd",
         "title": "Offres d'Emploi Statique",
         "id": 5,
-         "shortDescription": "Liste d’offres avec filtres dynamiques par poste, lieu et type.",
+        "shortDescription": "Liste d’offres avec filtres dynamiques par poste, lieu et type.",
         "url": "https://salimkh5.github.io/static-job-listings-master/",
         "githubUrl": "https://github.com/SalimKH5/static-job-listings-master",
         "images": [
@@ -264,197 +264,105 @@
         ]
       }
     ],
-   "GeneralSkills": [
-    {
-      "title": "Développement Frontend",
-      "details": [
-        {
-          "text": "React.js",
-          "icon": "FaReact"
-        },
-        {
-          "text": "Next.js",
-          "icon": "RiNextjsFill"
-        },
-        {
-          "text": "TypeScript",
-          "icon": "SiTypescript"
-        },
-        {
-          "text": "JavaScript",
-          "icon": "SiJavascript"
-        },
-        {
-          "text": "Vue.js",
-          "icon": "FaVuejs"
-        },
-        {
-          "text": "Angular",
-          "icon": "FaAngular"
-        },
-        {
-          "text": "Tailwind CSS",
-          "icon": "RiTailwindCssFill"
-        },
-        {
-          "text": "Bootstrap",
-          "icon": "FaBootstrap"
-        },
-        {
-          "text": "SCSS / CSS",
-          "icon": "FaCss3Alt"
-        },
-        {
-          "text": "HTML5",
-          "icon": "FaHtml5"
-        }
-      ]
-    },
-    {
-      "title": "Développement Backend",
-      "details": [
-        {
-          "text": "Java",
-          "icon": "FaJava"
-        },
-        {
-          "text": "Spring Boot",
-          "icon": "SiSpringboot"
-        },
-        {
-          "text": "PHP",
-          "icon": "FaPhp"
-        },
-        {
-          "text": "Symfony",
-          "icon": "SiSymfony"
-        },
-        {
-          "text": "NestJS",
-          "icon": "SiNestjs"
-        },
-        {
-          "text": "Express.js",
-          "icon": "SiExpress"
-        },
-        {
-          "text": "Django",
-          "icon": "SiDjango"
-        },
-        {
-          "text": "C# / .Net",
-          "icon": "AiOutlineDotNet"
-        },
-        {
-          "text": "Go",
-          "icon": "FaGolang"
-        }
-      ]
-    },
-    {
-      "title": "Data & IA",
-      "details": [
-        {
-          "text": "Python",
-          "icon": "FaPython"
-        },
-        {
-          "text": "Machine Learning",
-          "icon": "GiArtificialIntelligence"
-        },
-        {
-          "text": "TensorFlow",
-          "icon": "SiTensorflow"
-        },
-        {
-          "text": "Keras",
-          "icon": "SiKeras"
-        },
-        {
-          "text": "Pandas / NumPy",
-          "icon": "SiPandas"
-        },
-        {
-          "text": "Power BI",
-          "icon": "SiPowerbi"
-        },
-        {
-          "text": "R",
-          "icon": "FaRProject"
-        }
-      ]
-    },
-    {
-      "title": "DevOps & Outils",
-      "details": [
-        {
-          "text": "Docker",
-          "icon": "FaDocker"
-        },
-        {
-          "text": "Kubernetes",
-          "icon": "SiKubernetes"
-        },
-        {
-          "text": "Jenkins",
-          "icon": "FaJenkins"
-        },
-        {
-          "text": "GitLab CI / GitHub",
-          "icon": "FaGitlab"
-        },
-        {
-          "text": "SonarQube",
-          "icon": "SiSonarqube"
-        },
-        {
-          "text": "Selenium",
-          "icon": "SiSelenium"
-        }
-      ]
-    },
-    {
-      "title": "Bases de Données",
-      "details": [
-        {
-          "text": "PostgreSQL",
-          "icon": "BiLogoPostgresql"
-        },
-        {
-          "text": "MySQL",
-          "icon": "DiMysql"
-        },
-        {
-          "text": "Oracle",
-          "icon": "SiOracle"
-        },
-        {
-          "text": "MongoDB",
-          "icon": "DiMongodb"
-        },
-        {
-          "text": "Cassandra DB",
-          "icon": "SiApachecassandra"
-        },
-        {
-          "text": "Typesense",
-          "icon": "FaSearch"
-        }
-      ]
-    },
-    {
-      "title": "Gestion de Projet",
-      "details": [
-        {
-          "text": "Méthode Agile / Scrum",
-          "icon": "FaTasks"
-        },
-        {
-          "text": "Jira",
-          "icon": "FaJira"
-        }
-      ]
-    }
-  ]
+    "GeneralSkills": [
+      {
+        "title": "Développement Frontend",
+        "details": [
+          { "text": "React.js", "icon": "FaReact", "color": "#61DAFB" },
+          { "text": "Next.js", "icon": "RiNextjsFill", "color": "#000000" },
+          { "text": "TypeScript", "icon": "SiTypescript", "color": "#3178C6" },
+          { "text": "JavaScript", "icon": "SiJavascript", "color": "#F7DF1E" },
+          { "text": "Vue.js", "icon": "FaVuejs", "color": "#42B883" },
+          { "text": "Angular", "icon": "FaAngular", "color": "#DD0031" },
+          {
+            "text": "Tailwind CSS",
+            "icon": "RiTailwindCssFill",
+            "color": "#38BDF8"
+          },
+          { "text": "Bootstrap", "icon": "FaBootstrap", "color": "#7952B3" },
+          { "text": "SCSS / CSS", "icon": "FaCss3Alt", "color": "#1572B6" },
+          { "text": "HTML5", "icon": "FaHtml5", "color": "#E34F26" }
+        ]
+      },
+      {
+        "title": "Développement Backend",
+        "details": [
+          { "text": "Java", "icon": "FaJava", "color": "#007396" },
+          { "text": "Spring Boot", "icon": "SiSpringboot", "color": "#6DB33F" },
+          { "text": "PHP", "icon": "FaPhp", "color": "#777BB4" },
+          { "text": "Symfony", "icon": "SiSymfony", "color": "#000000" },
+          { "text": "NestJS", "icon": "SiNestjs", "color": "#E0234E" },
+          { "text": "Express.js", "icon": "SiExpress", "color": "#000000" },
+          {
+            "text": "C# / .Net",
+            "icon": "AiOutlineDotNet",
+            "color": "#512BD4"
+          }
+       
+        ]
+      },
+      {
+        "title": "Data & IA",
+        "details": [
+          { "text": "Python", "icon": "FaPython", "color": "#3776AB" },
+          {
+            "text": "Machine Learning",
+            "icon": "GiArtificialIntelligence",
+            "color": "#8E44AD"
+          },
+          { "text": "TensorFlow", "icon": "SiTensorflow", "color": "#FF6F00" },
+          { "text": "Keras", "icon": "SiKeras", "color": "#D00000" },
+          { "text": "Pandas", "icon": "SiPandas", "color": "#150458" },
+          { "text": "NumPy", "icon": "SiNumpy", "color": "#150458" },
+          { "text": "Power BI", "icon": "SiPowerbi", "color": "#F2C811" },
+          { "text": "R", "icon": "FaRProject", "color": "#276DC3" }
+        ]
+      },
+      {
+        "title": "DevOps & Outils",
+        "details": [
+          { "text": "Docker", "icon": "FaDocker", "color": "#2496ED" },
+          { "text": "Kubernetes", "icon": "SiKubernetes", "color": "#326CE5" },
+          { "text": "Jenkins", "icon": "FaJenkins", "color": "#D24939" },
+          {
+            "text": "GitLab CI / GitHub",
+            "icon": "FaGitlab",
+            "color": "#FC6D26"
+          },
+          { "text": "SonarQube", "icon": "SiSonarqube", "color": "#4E9BCD" },
+          { "text": "Selenium", "icon": "SiSelenium", "color": "#43B02A" }
+        ]
+      },
+      {
+        "title": "Bases de Données",
+        "details": [
+          {
+            "text": "PostgreSQL",
+            "icon": "BiLogoPostgresql",
+            "color": "#4169E1"
+          },
+          { "text": "MySQL", "icon": "DiMysql", "color": "#4479A1" },
+          { "text": "Oracle", "icon": "SiOracle", "color": "#F80000" },
+          { "text": "MongoDB", "icon": "DiMongodb", "color": "#47A248" },
+          {
+            "text": "Cassandra DB",
+            "icon": "SiApachecassandra",
+            "color": "#1287B1"
+          },
+          { "text": "Typesense", "icon": "FaSearch", "color": "#FF6B00" }
+        ]
+      },
+      {
+        "title": "Gestion de Projet",
+        "details": [
+          {
+            "text": "Méthode Agile / Scrum",
+            "icon": "FaTasks",
+            "color": "#2C3E50"
+          },
+          { "text": "Jira", "icon": "FaJira", "color": "#0052CC" }
+        ]
+      }
+    ]
   }
 }

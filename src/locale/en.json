@@ -1,8 +1,8 @@
 {
   "translation": {
     "subtitleSection1": "Welcome to my portfolio! Explore my background and the projects I've crafted, showcasing my skills and creativity. Feel free to connect if you'd like to learn more or collaborate.",
-    "subtitleAbout": "I am deeply passionate about new information and communication technologies, and I thrive on exploring and understanding the latest advancements in this dynamic field. My enthusiasm for innovation drives me to stay updated with cutting-edge developments and emerging trends, ensuring I remain at the forefront of technological progress. As a Full-Stack Developer with expertise in React.js, Express, and Next.js, I relish the opportunity to leverage these technologies to build robust, scalable, and efficient web applications. My experience spans both front-end and back-end development, allowing me to create seamless and user-centric solutions that address real-world challenges.",
-    "sideProject": "Explore a selection of my projects that demonstrate my expertise across various technologies. Each project highlights different skills and tools I've utilized to solve unique challenges and deliver impactful solutions. From innovative web applications to robust backend systems, these examples showcase my versatility and commitment to quality. You'll find a diverse range of work that not only reflects my technical abilities but also my dedication to continuous learning. My portfolio is a testament to my passion for creating effective, efficient, and user-friendly solutions.",
+    "subtitleAbout": "Full-Stack Developer specialized in React.js, Next.js, and Express, with a strong interest in emerging technologies and innovation. Experienced in building scalable, user-centric web applications across both front-end and back-end, and committed to staying current with modern development practices.",
+    "sideProject": "Explore a selection of projects showcasing my expertise across multiple technologies. These works highlight practical, high-quality solutions and reflect my versatility, technical proficiency, and commitment to continuous learning.",
     "titleAbout": "About",
     "titleSide": "Side Projects",
     "navHome": "Home",
@@ -133,7 +133,7 @@
       },
       {
         "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/youtube.png?alt=media&token=3bbadc37-f105-42e9-b96d-11b1eb9ef8f8",
-        "title": "YouTube Clone",
+        "title": "NovaStream",
         "id": 3,
          "shortDescription": "Video streaming app with search and playback using an external API.",
         "url": "https://gregarious-monstera-5e42e6.netlify.app/",
@@ -198,195 +198,71 @@
     {
       "title": "Frontend Development",
       "details": [
-        {
-          "text": "React.js",
-          "icon": "FaReact"
-        },
-        {
-          "text": "Next.js",
-          "icon": "RiNextjsFill"
-        },
-        {
-          "text": "TypeScript",
-          "icon": "SiTypescript"
-        },
-        {
-          "text": "JavaScript",
-          "icon": "SiJavascript"
-        },
-        {
-          "text": "Vue.js",
-          "icon": "FaVuejs"
-        },
-        {
-          "text": "Angular",
-          "icon": "FaAngular"
-        },
-        {
-          "text": "Tailwind CSS",
-          "icon": "RiTailwindCssFill"
-        },
-        {
-          "text": "Bootstrap",
-          "icon": "FaBootstrap"
-        },
-        {
-          "text": "CSS / SCSS",
-          "icon": "FaCss3Alt"
-        },
-        {
-          "text": "HTML5",
-          "icon": "FaHtml5"
-        }
+        { "text": "React.js", "icon": "FaReact", "color": "#61DAFB" },
+        { "text": "Next.js", "icon": "RiNextjsFill", "color": "#000000" },
+        { "text": "TypeScript", "icon": "SiTypescript", "color": "#3178C6" },
+        { "text": "JavaScript", "icon": "SiJavascript", "color": "#F7DF1E" },
+        { "text": "Vue.js", "icon": "FaVuejs", "color": "#42B883" },
+        { "text": "Angular", "icon": "FaAngular", "color": "#DD0031" },
+        { "text": "Tailwind CSS", "icon": "RiTailwindCssFill", "color": "#38BDF8" },
+        { "text": "Bootstrap", "icon": "FaBootstrap", "color": "#7952B3" },
+        { "text": "CSS / SCSS", "icon": "FaCss3Alt", "color": "#1572B6" },
+        { "text": "HTML5", "icon": "FaHtml5", "color": "#E34F26" }
       ]
     },
     {
       "title": "Backend Development",
       "details": [
-        {
-          "text": "Java",
-          "icon": "FaJava"
-        },
-        {
-          "text": "Spring Boot",
-          "icon": "SiSpringboot"
-        },
-        {
-          "text": "PHP",
-          "icon": "FaPhp"
-        },
-        {
-          "text": "Symfony",
-          "icon": "SiSymfony"
-        },
-        {
-          "text": "NestJS",
-          "icon": "SiNestjs"
-        },
-        {
-          "text": "Express.js",
-          "icon": "SiExpress"
-        },
-        {
-          "text": "Django",
-          "icon": "SiDjango"
-        },
-        {
-          "text": ".NET / C#",
-          "icon": "AiOutlineDotNet"
-        },
-        {
-          "text": "Go",
-          "icon": "FaGolang"
-        }
+        { "text": "Java", "icon": "FaJava", "color": "#007396" },
+        { "text": "Spring Boot", "icon": "SiSpringboot", "color": "#6DB33F" },
+        { "text": "PHP", "icon": "FaPhp", "color": "#777BB4" },
+        { "text": "Symfony", "icon": "SiSymfony", "color": "#000000" },
+        { "text": "NestJS", "icon": "SiNestjs", "color": "#E0234E" },
+        { "text": "Express.js", "icon": "SiExpress", "color": "#000000" },
+        { "text": ".NET / C#", "icon": "AiOutlineDotNet", "color": "#512BD4" }
       ]
     },
     {
       "title": "Data Science & AI",
       "details": [
-        {
-          "text": "Python",
-          "icon": "FaPython"
-        },
-        {
-          "text": "Machine Learning",
-          "icon": "GiArtificialIntelligence"
-        },
-        {
-          "text": "Deep Learning",
-          "icon": "SiKeras"
-        },
-        {
-          "text": "TensorFlow",
-          "icon": "SiTensorflow"
-        },
-        {
-          "text": "Pandas / NumPy",
-          "icon": "SiPandas"
-        },
-        {
-          "text": "Power BI",
-          "icon": "SiPowerbi"
-        },
-        {
-          "text": "R",
-          "icon": "FaRProject"
-        }
+        { "text": "Python", "icon": "FaPython", "color": "#3776AB" },
+        { "text": "Machine Learning", "icon": "GiArtificialIntelligence", "color": "#8E44AD" },
+        { "text": "Deep Learning", "icon": "SiKeras", "color": "#D00000" },
+        { "text": "TensorFlow", "icon": "SiTensorflow", "color": "#FF6F00" },
+        { "text": "Pandas", "icon": "SiPandas", "color": "#150458" },
+        { "text": "NumPy", "icon": "SiNumpy", "color": "#150458" },
+        { "text": "Power BI", "icon": "SiPowerbi", "color": "#F2C811" },
+        { "text": "R", "icon": "FaRProject", "color": "#276DC3" }
       ]
     },
     {
       "title": "DevOps & Tools",
       "details": [
-        {
-          "text": "Docker",
-          "icon": "FaDocker"
-        },
-        {
-          "text": "Kubernetes",
-          "icon": "SiKubernetes"
-        },
-        {
-          "text": "Jenkins",
-          "icon": "FaJenkins"
-        },
-        {
-          "text": "GitLab CI / GitHub",
-          "icon": "FaGitlab"
-        },
-        {
-          "text": "SonarQube",
-          "icon": "SiSonarqube"
-        },
-        {
-          "text": "Selenium",
-          "icon": "SiSelenium"
-        }
+        { "text": "Docker", "icon": "FaDocker", "color": "#2496ED" },
+        { "text": "Kubernetes", "icon": "SiKubernetes", "color": "#326CE5" },
+        { "text": "Jenkins", "icon": "FaJenkins", "color": "#D24939" },
+        { "text": "GitLab CI / GitHub", "icon": "FaGitlab", "color": "#FC6D26" },
+        { "text": "SonarQube", "icon": "SiSonarqube", "color": "#4E9BCD" },
+        { "text": "Selenium", "icon": "SiSelenium", "color": "#43B02A" }
       ]
     },
     {
       "title": "Database Management",
       "details": [
-        {
-          "text": "PostgreSQL",
-          "icon": "BiLogoPostgresql"
-        },
-        {
-          "text": "MySQL",
-          "icon": "DiMysql"
-        },
-        {
-          "text": "Oracle",
-          "icon": "SiOracle"
-        },
-        {
-          "text": "MongoDB",
-          "icon": "DiMongodb"
-        },
-        {
-          "text": "Cassandra DB",
-          "icon": "SiApachecassandra"
-        },
-        {
-          "text": "Firebase",
-          "icon": "IoLogoFirebase"
-        }
+        { "text": "PostgreSQL", "icon": "BiLogoPostgresql", "color": "#4169E1" },
+        { "text": "MySQL", "icon": "DiMysql", "color": "#4479A1" },
+        { "text": "Oracle", "icon": "SiOracle", "color": "#F80000" },
+        { "text": "MongoDB", "icon": "DiMongodb", "color": "#47A248" },
+        { "text": "Cassandra DB", "icon": "SiApachecassandra", "color": "#1287B1" },
+        { "text": "Firebase", "icon": "IoLogoFirebase", "color": "#FFCA28" }
       ]
     },
     {
       "title": "Project Management",
       "details": [
-        {
-          "text": "Agile / Scrum",
-          "icon": "FaTasks"
-        },
-        {
-          "text": "Jira",
-          "icon": "FaJira"
-        },
-        {
-          "text": "Microsoft Project",
-          "icon": "PiMicrosoftPowerpointLogoLight"
-        }
+        { "text": "Agile / Scrum", "icon": "FaTasks", "color": "#2C3E50" },
+        { "text": "Jira", "icon": "FaJira", "color": "#0052CC" },
+        { "text": "Microsoft Project", "icon": "PiMicrosoftPowerpointLogoLight", "color": "#D83B01" }
       ]
     }
   ]

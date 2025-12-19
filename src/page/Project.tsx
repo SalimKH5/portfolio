@@ -7,7 +7,7 @@ import "swiper/swiper-bundle.css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/autoplay";
 import "swiper/css/navigation";
-import { FaRegEye } from "react-icons/fa";
+import { FaExternalLinkAlt} from "react-icons/fa";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { SiTypescript } from "react-icons/si";
 import {
@@ -63,7 +63,6 @@ const iconMap: Record<string, React.ElementType> = {
 
 
 
-
 const Project = () => {
   const path = useParams();
 
@@ -104,7 +103,7 @@ const Project = () => {
                         placeholder={
                           <div className="w-full h-full rounded-2xl flex items-center justify-center bg-slate-300 animate-pulse "></div>
                         }
-                        className={`w-full h-[20rem] lg:h-[26rem] rounded-3xl object-conver transition-all duration-500 ease-in-out 
+                        className={`w-full h-[15rem] lg:h-[26rem] rounded-3xl object-fill transition-all duration-500 ease-in-out 
           ${isLoaded ? "opacity-100" : "opacity-0"}
         `}
                         loading="lazy"
@@ -114,13 +113,13 @@ const Project = () => {
                   </div>
                   {work.images && (
                     <Swiper
-                     autoplay={{ delay: 2000 }}
+                     autoplay={{ delay: 4000 }}
                       loop={true}
                     
                       breakpoints={{
                         "0": {
                           slidesPerView:2,
-                          spaceBetween: 8,
+                           spaceBetween: 10,
                         },
                         "980": {
                           slidesPerView: work?.images?.length > 2 ? 3 : 2,
@@ -133,7 +132,7 @@ const Project = () => {
                         nextEl: ".swiper-button-next",
                         prevEl: ".swiper-button-prev",
                       }}
-                      className="w-full h-44"
+                      className="w-full h-40"
                     >
                       {work?.images?.map((image: string, index: number) => (
                         <SwiperSlide
@@ -151,10 +150,8 @@ const Project = () => {
                             // Add a unique key for each item in a list
                             src={`${image}`} // Assuming 'imagePath' is the field containing the image URL
                             alt=""
-                            placeholder={
-                              <div className="h-full rounded-lg bg-slate-300 animate-pulse "></div>
-                            }
-                            className={`object-fill h-44 rounded-xl ${pathService.index===index && "border-4 border-violet-400"} `}
+                           
+                            className={` w-full object-contain h-full rounded-xl  ${pathService.index===index && "border-4 border-violet-400"} `}
                           />
                         </SwiperSlide>
                       ))}
@@ -202,24 +199,27 @@ const Project = () => {
                 </Swiper>
               )}
             </div>
-            <div className="flex items-center gap-5">
-              <a
-                href={work?.url}
-                target="_blank"
-                className="flex items-center gap-3 shadow-xl bg-[#cf42f3] text-white dark:bg-white dark:text-[#221F1F] dark:hover:bg-[#592068] dark:hover:text-[#F1f1f1f1] hover:shadow-2xl  hover:bg-[#acacace0] hover:text-[#0e0e0ef1] p-2 rounded-md"
-              >
-                <span>Visite</span>
-                <FaRegEye />
-              </a>
-              <a
-                href={work?.githubUrl}
-                target="_blank"
-                className="flex items-center gap-3 shadow-xl bg-[#221F1F] text-white dark:bg-white dark:text-[#221F1F] dark:hover:bg-[#3b3b3be0] dark:hover:text-[#F1f1f1f1] hover:shadow-2xl  hover:bg-[#acacace0] hover:text-[#0e0e0ef1] p-2 rounded-md"
-              >
-                <span>Repository</span>
-                <FaGithub />
-              </a>
-            </div>
+            <div className="flex items-center gap-3 mt-2">
+                        <a
+                          href={work?.url}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="flex-1 flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white py-2.5 px-4 text-xs font-bold rounded-xl shadow-lg shadow-blue-500/20 transition-all active:scale-95"
+                        >
+                          <FaExternalLinkAlt size={12} />
+                          <span>Live Demo</span>
+                        </a>
+            
+                        <a
+                          href={work?.githubUrl}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="flex items-center justify-center gap-2 bg-slate-800 hover:bg-black text-white dark:bg-slate-100 dark:text-slate-900 dark:hover:bg-white py-2.5 px-4 text-xs font-bold rounded-xl transition-all active:scale-95"
+                        >
+                          <FaGithub size={16} />
+                          <span>Code</span>
+                        </a>
+                      </div>
           </div>
         </div>
       </div>

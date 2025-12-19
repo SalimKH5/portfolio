@@ -37,18 +37,18 @@ const getIconByName = (iconName?: string): React.ElementType | null => {
 const ProjectContainer = ({ propos }: { propos: IWork }) => {
   return (
     <Tooltip title={`View details for ${propos.title}`} placement="top">
-      <div className="group w-full flex flex-col gap-5 p-4 bg-white rounded-[2rem] dark:bg-slate-900 border border-slate-200 dark:border-slate-800  shadow-sm hover:shadow-xl transition-all duration-300">
-        {/* Image Section - Now a clickable link to detail page */}
+      <div className="group w-full flex flex-col gap-5 p-4 bg-white rounded-[2rem] min-h-[26rem]   dark:bg-slate-900 border border-slate-200 dark:border-slate-800  shadow-lg hover:shadow-xl transition-all duration-300">
+        
         <a
           href={`/${propos.id}`}
-          className="block overflow-hidden rounded-2xl h-52 w-full bg-slate-100 dark:bg-slate-800"
+          className="block relative overflow-hidden rounded-2xl h-43 w-full dark:bg-slate-800"
         >
-          <LazyLoadImage
+           <LazyLoadImage
             src={propos.image}
             alt={propos.title}
             effect="opacity"
             placeholder={
-              <div className="w-full h-full bg-slate-300 animate-pulse" />
+              <div className="absolute inset-0 bg-slate-300 animate-pulse" />
             }
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           />
@@ -64,7 +64,7 @@ const ProjectContainer = ({ propos }: { propos: IWork }) => {
                 {propos.title}
               </h3>
             </a>
-            <p className="text-sm leading-relaxed line-clamp-2 min-h-[40px]">
+            <p className="text-sm leading-relaxed  line-clamp-2 min-h-[40px]">
               {propos.shortDescription}
             </p>
             <div className="w-full flex gap-4 items-center justify-center">
