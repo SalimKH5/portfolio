@@ -38,7 +38,7 @@ interface ModalComponentProps {
 
 const ModalComponent: FC<ModalComponentProps> = ({ Skill }) => {
   return (
-    <div className="w-full h-auto px-5 py-2 rounded-lg bg-white min-h-[21rem] shadow-lg">
+    <div className="group w-full flex flex-col gap-5 p-4 bg-white rounded-[2rem] min-h-[26rem]   dark:bg-slate-900 border border-slate-200 dark:border-slate-800  shadow-lg hover:shadow-xl transition-all duration-300">
       <div className="flex items-center justify-center  h-16 font-bold rounded-lg">
         <p>{Skill?.title}</p>
       </div>

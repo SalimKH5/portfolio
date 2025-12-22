@@ -25,10 +25,11 @@ const WorkContainer = () => {
             <div className="w-full  flex flex-col gap-8 text-start">
                 <h1 className='text-5xl '>{t("titleSide")}
                 </h1>
-                <div className="w-full text-center">
+                <div className="w-full text-center ">
                     <p>{t("sideProject")}</p>
                 </div>
-                <Swiper
+                <div className="relative w-full px-11">
+                             <Swiper
                     autoplay={{delay:6000}}
                     loop={true}
                     breakpoints={{
@@ -65,6 +66,8 @@ const WorkContainer = () => {
                         ))
                     }
                 </Swiper>
+                </div>
+               
             </div>
         </div>
     )

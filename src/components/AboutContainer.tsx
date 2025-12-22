@@ -19,7 +19,7 @@ const AboutContainer = () => {
   return (
     <div
       id="about"
-      className="w-full section-content h-auto lg:h-screen flex flex-col    justify-center items-center text-center gap-10 py-16"
+      className="w-full section-content h-auto lg:h-screen flex flex-col    justify-center items-center text-center gap-10 py-24 "
     >
       <div className="w-full text-start">
         <h1 className="text-5xl">{t("titleAbout")}</h1>
@@ -29,36 +29,34 @@ const AboutContainer = () => {
       <div className="w-full text-start">
         <h2 className="text-2xl">{t("GeneralSkillsTitle")}</h2>
       </div>
-      <div className="relative w-full">
+      <div className="relative w-full px-11">
         <Swiper
           autoplay={{ delay: 5000 }}
           loop={true}
-          breakpoints={{
-            // when window width is >= 640px
+           breakpoints={{
+                        "0": {
+                            slidesPerView: 1,
 
-            // when window width is >= 768px
-            "0": {
-              slidesPerView: 1,
+                            spaceBetween: 5,
 
-              spaceBetween: 5,
-            },
-            "768": {
-              slidesPerView: 2,
+                        },
+                        "768": {
+                            slidesPerView: 2,
 
-              spaceBetween: 40,
-            },
-            "980": {
-              slidesPerView: 4,
+                            spaceBetween: 20
+                        },
+                        "1200": {
+                            slidesPerView: 3,
 
-              spaceBetween: 40,
-            },
-          }}
+                            spaceBetween: 30
+                        },
+                    }}
           modules={[Navigation, Pagination, Autoplay]}
           navigation={{
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
           }}
-          className="w-full min-h-20 max-w-md   lg:max-w-6xl 2xl:max-w-9xl grid lg:grid-cols-4 gap-16 "
+        className="w-full swiper-slide h-auto  "
         >
           {skills.map((skill: ISkills, index: number) => (
             <SwiperSlide
