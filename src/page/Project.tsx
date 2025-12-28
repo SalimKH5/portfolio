@@ -7,7 +7,7 @@ import "swiper/swiper-bundle.css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/autoplay";
 import "swiper/css/navigation";
-import { FaExternalLinkAlt} from "react-icons/fa";
+import { FaExternalLinkAlt, FaGitlab} from "react-icons/fa";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { SiTypescript } from "react-icons/si";
 import {
@@ -58,6 +58,7 @@ const iconMap: Record<string, React.ElementType> = {
   BiLogoPostgresql: BiLogoPostgresql,
   IoLogoFirebase: IoLogoFirebase,
   LuFileJson: LuFileJson,
+  FaGitlab:FaGitlab
 };
 
 
@@ -103,7 +104,7 @@ const Project = () => {
                         placeholder={
                           <div className="w-full h-full rounded-2xl flex items-center justify-center bg-slate-300 animate-pulse "></div>
                         }
-                        className={`w-full h-[15rem] lg:h-[26rem] rounded-3xl object-fill transition-all duration-500 ease-in-out 
+                        className={`w-full h-[15rem] lg:h-[26rem] rounded-3xl object-fill transition-all duration-500 ease-in-out border-2 border-black dark:border-blue-300
           ${isLoaded ? "opacity-100" : "opacity-0"}
         `}
                         loading="lazy"
@@ -151,7 +152,7 @@ const Project = () => {
                             src={`${image}`} // Assuming 'imagePath' is the field containing the image URL
                             alt=""
                            
-                            className={` w-full object-contain h-full rounded-xl  ${pathService.index===index && "border-4 border-violet-400"} `}
+                            className={` w-full h-full object-contain  rounded-xl  ${pathService.index===index ? "border-4 border-violet-400":"border-2 border-black dark:border-blue-300"} `}
                           />
                         </SwiperSlide>
                       ))}

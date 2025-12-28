@@ -86,6 +86,44 @@
       }
     ],
     "projects": [
+        {
+        "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/NextResume%201.png?alt=media&token=0bb5bd02-8d03-499f-8e8d-1bc2cdc9a6ac",
+        "title": "NextResume",
+        "id": 6,
+        "shortDescription": "Creation de CV ",
+        "url": "https://next-resume-psi-ruddy.vercel.app/",
+        "githubUrl": "https://github.com/SalimKH5/NextResume",
+       "images": [
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/NextResume%201.png?alt=media&token=0bb5bd02-8d03-499f-8e8d-1bc2cdc9a6ac",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/NextResume%202.png?alt=media&token=3d19171b-7c79-4cc8-8ead-b87072f6cb50",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/NextResume%205.png?alt=media&token=410607ee-8489-4d49-9f7a-8b25c4a3f75f",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/NextResume%205.png?alt=media&token=410607ee-8489-4d49-9f7a-8b25c4a3f75f",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/NextResume%206.png?alt=media&token=c5da1a8a-b395-4bb0-8bb0-214f611c5206"
+        ],
+        "detail": "Une site qui offre de crée un CV avec des template prés qui peuvent etre constomisé",
+        "icons": [
+          {
+            "icon": "RiNextjsFill",
+            "text": "Next.js"
+          },
+          {
+            "icon": "DiMongodb",
+            "text": "MongoDB"
+          },
+          {
+            "icon": "SiTypescript",
+            "text": "TypeScript"
+          },
+          {
+            "icon": "RiTailwindCssFill",
+            "text": "Tailwind CSS"
+          },
+          {
+            "icon": "FaGitlab",
+            "text": "GitHub"
+          }
+        ]
+      },
       {
         "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/snapply1.png?alt=media&token=1039bfe9-0152-4ffe-90de-9aebe512a9e1",
         "title": "Snapply",
@@ -193,6 +231,7 @@
           { "icon": "LuFileJson", "text": "Json" }
         ]
       }
+      
     ],
   "GeneralSkills": [
     {
