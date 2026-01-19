@@ -5,7 +5,7 @@ import { Tooltip } from "antd";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import ReactCountryFlag from "react-country-flag";
-const Navbar = () => {
+const Navbar = ({ scrolled }: { scrolled?: boolean }) => {
   const { handleThemeSwitch, theme } = useThemeSwitcher()
   
   const { t, i18n: { changeLanguage, language } } = useTranslation();
@@ -18,7 +18,11 @@ const Navbar = () => {
 
 
   return (
-    <nav className='bg-white dark:bg-[#363232] w-full flex items-center justify-center  fixed  z-50 py-2 left-0 right-0 top-0 '>
+    <nav className={` w-full flex items-center justify-center  fixed  z-50 py-2 left-0 right-0 top-0   ${
+        scrolled
+          ? "dark:bg-slate-900/80 backdrop-blur-lg  border-b dark:border-slate-800"
+          : "bg-transparent border-b"
+      }`}>
       <div className="w-full  flex items-center justify-between px-4 lg:px-0 max-w-sm sm:max-w-lg md:max-w-5xl xl:max-w-6xl">
         <a href="/" className='text-xl font-bold hover:scale-110'>SALIMKHADIR</a>
         {
