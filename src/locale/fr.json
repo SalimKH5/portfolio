@@ -18,7 +18,7 @@
     "experiences": [
       {
         "date": "Octobre 2024 - actuellement",
-        "role": "Développeur Frontend",
+        "role": "Développeur Full-stack",
         "company": "La Plume d'or et d'argent",
         "responsibilities": [
           "Développement et maintenance du site web de l'entreprise.",
@@ -27,13 +27,16 @@
         ]
       },
       {
-        "date": "Octobre 2023 - Mars 2024 · 6 mois",
-        "role": "Développeur Frontend",
-        "company": "IMMERSIVE DIGITAL DEVELOPPEMENT (IDD)",
+        "date": "Octobre 2023 - Septembre 2024",
+        "role": "Développeur  Full-stack",
+        "company": "Care-me",
         "responsibilities": [
-          "Création d'interfaces utilisateur intuitives et engageantes",
-          "Utilisation du framework Next.js pour des solutions frontend dynamiques et réactives",
-          "Collaboration avec l'équipe de design pour améliorer l'expérience utilisateur"
+         "Conception d’interfaces utilisateur intuitives et engageantes, ayant contribué à une hausse du taux de rétention des utilisateurs.",
+        "Développement frontend dynamique avec Next.js, garantissant des applications entièrement responsives et optimisées pour la performance.",
+        "Collaboration étroite avec l’équipe design afin d’améliorer l’UX, réduisant significativement le taux d’abandon des utilisateurs.",
+        "Conception et développement d’une API REST sécurisée en C# .NET, intégrant un système d’authentification et d’autorisation via JWT, assurant la protection des données et la gestion des accès utilisateurs.",
+        "Intégration d’un système de recommandation basé sur le Machine Learning, permettant une augmentation de l’engagement utilisateur grâce à la personnalisation des contenus.",
+        "Application d’une méthodologie agile (sprints courts, feedback continus), favorisant une réduction du time-to-market et une meilleure adaptation aux besoins métier."
         ]
       },
       {

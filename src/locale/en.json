@@ -29,14 +29,18 @@
       },
       {
         "date": "Octobre 2023 - Mars 2024 · 6 months",
-        "role": "Frontend Developer",
+        "role": "Full-stack Developer",
         "localisation": "Cheragga Algeria",
-        "company": "IMMERSIVE DIGITAL DEVELOPPEMENT (IDD)",
-        "responsibilities": [
-          "Creation of intuitive and engaging user interfaces",
-          "Using the Next.js framework for dynamic and responsive frontend solutions",
-          "Collaborating with the design team to enhance the user experience"
-        ]
+        "company": "Care-me",
+                  "responsibilities": [
+            "Designed intuitive and engaging user interfaces, contributing to an increase in user retention rates.",
+            "Developed dynamic front-end applications using Next.js, ensuring fully responsive and performance-optimized solutions.",
+            "Worked closely with the design team to enhance user experience (UX), significantly reducing user drop-off rates.",
+            "Designed and developed a secure REST API in C# .NET, integrating authentication and authorization mechanisms using JWT to ensure data protection and user access management.",
+            "Integrated a Machine Learning–based recommendation system, increasing user engagement through personalized content.",
+            "Applied agile methodologies (short sprints, continuous feedback), enabling reduced time-to-market and improved alignment with business needs."
+          ]
+
       },
       {
         "date": "August 2023 - October 2023 · 3 months",
