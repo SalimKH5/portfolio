@@ -21,9 +21,11 @@
         "role": "Développeur Full-stack",
         "company": "La Plume d'or et d'argent",
         "responsibilities": [
-          "Développement et maintenance du site web de l'entreprise.",
-          "Création de modules PHP e-commerce responsives, sécurisés et optimisés pour l'expérience utilisateur.",
-          "Mise en œuvre de technologies clés : HTML, CSS, JavaScript et PHP."
+          "Innovation & Recherche IA (React.js / Typesense) : Conception d'un moteur de recherche sémantique haute performance. Utilisation de LLM pour générer des embeddings vectoriels, permettant une pertinence contextuelle supérieure à la recherche classique.",
+"Outillage Interne & Dashboard : Développement complet d'un Dashboard Administrateur centralisé, offrant une visualisation en temps réel des KPIs et facilitant le pilotage stratégique de l'entreprise.",
+"Développement Backend (Symfony/PrestaShop) : Création de modules complexes (Paiement, Stocks, Code-barres) et intégration d'APIs tierces, permettant de fiabiliser le traitement des commandes et d'optimiser le taux de conversion.",
+"Performance & UX : Refonte technique et optimisation du chargement (Core Web Vitals), aboutissant à une réduction du temps de chargement .",
+"Optimisation Métier : Automatisation des flux critiques (Gestion des stocks, Suivi client) via des solutions robustes (PHP/Symfony), améliorant la productivité des équipes internes ."
         ]
       },
       {

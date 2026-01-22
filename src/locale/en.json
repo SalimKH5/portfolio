@@ -21,14 +21,17 @@
         "role": "Full-stack Developer",
         "localisation": "21 rue gambetta Houille Ile de france",
         "company": "La Plume d'or et d'argent",
-        "responsibilities": [
-          "Development and maintenance of the company’s website.",
-          "Creation of responsive, secure, and user-friendly e-commerce PHP modules.",
-          "Implementation of core technologies: HTML, CSS, JavaScript, and PHP."
+              "responsibilities": [
+          "AI Innovation & Research (React.js / Typesense): Designed a high-performance semantic search engine leveraging LLMs to generate vector embeddings, enabling significantly improved contextual relevance compared to traditional search approaches.",
+          "Internal Tooling & Dashboard: Led the end-to-end development of a centralized Admin Dashboard, providing real-time KPI visualization and supporting strategic decision-making across the organization.",
+          "Backend Development (Symfony / PrestaShop): Built complex custom modules (Payments, Inventory, Barcodes) and integrated third-party APIs, improving order processing reliability and optimizing conversion rates.",
+          "Performance & UX Optimization: Led a technical refactor focused on performance optimization and Core Web Vitals, resulting in a substantial reduction in page load times.",
+          "Business Process Optimization: Automated critical business workflows (Inventory Management, Customer Tracking) using robust PHP/Symfony solutions, significantly improving internal team productivity."
         ]
+
       },
       {
-        "date": "Octobre 2023 - Mars 2024 · 6 months",
+        "date": "Octobre 2023 - Septembre 2024",
         "role": "Full-stack Developer",
         "localisation": "Cheragga Algeria",
         "company": "Care-me",
