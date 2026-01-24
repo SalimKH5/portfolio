@@ -37,7 +37,7 @@ const getIconByName = (iconName?: string): React.ElementType | null => {
 const ProjectContainer = ({ propos }: { propos: IWork }) => {
   return (
     <Tooltip title={`View details for ${propos.title}`} placement="top">
-      <div className="group w-full flex flex-col gap-5 p-4 bg-white rounded-[2rem] min-h-[26rem]   dark:bg-slate-900 border border-slate-200 dark:border-slate-800  shadow-lg hover:shadow-xl transition-all duration-300">
+      <div className="group w-full flex flex-col gap-5 p-4 bg-white rounded-[2rem] min-h-[26rem]  dark:bg-gradient-to-br   dark:bg-slate-800 border border-slate-200 dark:border-slate-600  shadow-lg hover:shadow-xl transition-all duration-300">
         
         <a
           href={`/${propos.id}`}

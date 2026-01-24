@@ -20,7 +20,7 @@ const Navbar = ({ scrolled }: { scrolled?: boolean }) => {
   return (
     <nav className={` w-full flex items-center justify-center  fixed  z-50 py-2 left-0 right-0 top-0   ${
         scrolled
-          ? "dark:bg-slate-900/80 backdrop-blur-lg  border-b dark:border-slate-800"
+          ? "dark:bg-slate-600/80 backdrop-blur-lg  border-b dark:border-slate-400"
           : "bg-transparent border-b"
       }`}>
       <div className="w-full  flex items-center justify-between px-4 lg:px-0 max-w-sm sm:max-w-lg md:max-w-5xl xl:max-w-6xl">

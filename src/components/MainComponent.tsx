@@ -44,7 +44,7 @@ const openPdfInNewTab = (cv:string) => {
 
   return (
      <ThemeProvider>
-      <div className='bg-zinc-100 font-sans dark:bg-gradient-to-br dark:from-slate-950 dark:via-slate-900 dark:to-slate-950 w-full h-full  dark:text-white   flex items-center justify-center py-4 '>
+      <div className='bg-zinc-100 font-sans dark:bg-gradient-to-br  dark:from-[#050B2E] dark:via-[#0B1A4A] dark:to-[#102A6B]  w-full h-full  dark:text-white   flex items-center justify-center py-4 '>
         <Navbar  scrolled={scrolled}/>
         <RouterProvider router={router} />
         <Footer />

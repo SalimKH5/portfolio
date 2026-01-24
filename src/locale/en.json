@@ -97,7 +97,7 @@
         "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/NextResume%201.png?alt=media&token=0bb5bd02-8d03-499f-8e8d-1bc2cdc9a6ac",
         "title": "NextResume",
         "id": 6,
-        "shortDescription": "Creation de CV ",
+        "shortDescription": "CV Creation with customize template",
         "url": "https://next-resume-psi-ruddy.vercel.app/",
         "githubUrl": "https://github.com/SalimKH5/NextResume",
        "images": [
@@ -107,7 +107,7 @@
           "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/NextResume%205.png?alt=media&token=410607ee-8489-4d49-9f7a-8b25c4a3f75f",
           "https://firebasestorage.googleapis.com/v0/b/portfolio-af3bf.appspot.com/o/NextResume%206.png?alt=media&token=c5da1a8a-b395-4bb0-8bb0-214f611c5206"
         ],
-        "detail": "Une site qui offre de crée un CV avec des template prés qui peuvent etre constomisé",
+        "detail": "A website that offers creating a CV using ready-made templates that can be customized.",
         "icons": [
           {
             "icon": "RiNextjsFill",
