@@ -38,9 +38,10 @@ interface ModalComponentProps {
 
 const ModalComponent: FC<ModalComponentProps> = ({ Skill }) => {
   return (
-    <div className="group w-full flex flex-col gap-5 p-4 bg-white rounded-[2rem] min-h-[26rem]  dark:bg-gradient-to-br   dark:bg-slate-800 border border-slate-200 dark:border-slate-600  shadow-lg hover:shadow-xl transition-all duration-300">
+    <div className="group w-full flex flex-col gap-5 p-4 bg-white rounded-[2rem] min-h-[26rem]    border border-slate-200 
+      shadow-lg hover:shadow-xl transition-all duration-300">
       <div className="flex items-center justify-center  h-16 font-bold rounded-lg">
-        <p>{Skill?.title}</p>
+        <p className="text-black">{Skill?.title}</p>
       </div>
       <div className="w-full flex items-center justify-center py-2 ">
         <div className="w-full grid grid-cols-4  gap-3 ">
@@ -50,7 +51,7 @@ const ModalComponent: FC<ModalComponentProps> = ({ Skill }) => {
             return (
               <div key={index} className="flex flex-col text-center items-center gap-2 text-sm">
                   {Icon && <Icon style={{ color: item.color || "#555" }} size={30} />}
-                  <span className="text-[10px]">{item.text}</span>
+                  <span className=" text-black text-[10px]">{item.text}</span>
               </div>
             );
           })}
